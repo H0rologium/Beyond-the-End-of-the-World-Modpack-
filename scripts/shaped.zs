@@ -20,3 +20,7 @@ recipes.addShaped(<bonsaitrees:bonsaipot:1>, [[null, <uppers:upper>, null],[null
 
 //Redstone Clock
 recipes.addShaped(<extrautils2:redstoneclock>, [[<extrautils2:compressedcobblestone>, <minecraft:redstone_block>, <extrautils2:compressedcobblestone>],[<minecraft:redstone_block>, <minecraft:clock>, <minecraft:redstone_block>], [<extrautils2:compressedcobblestone>, <minecraft:redstone_block>, <extrautils2:compressedcobblestone>]]);
+
+
+//Serene Seasons
+recipes.addShaped(<sereneseasons:greenhouse_glass> * 4, [[<ore:dyeCyan>, <minecraft:glass>, <ore:dyeCyan>],[<minecraft:glass>, <minecraft:planks>, <minecraft:glass>], [<ore:dyeCyan>, <minecraft:glass>, <ore:dyeCyan>]]);

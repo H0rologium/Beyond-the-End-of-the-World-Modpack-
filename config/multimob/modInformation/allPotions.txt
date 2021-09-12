@@ -143,6 +143,7 @@ midnight:darkness
 midnight:tormented
 midnight:unstable_fall
 midnight:confusion
+aether_legacy:inebriation
 apotheosis:sundering
 apotheosis:knowledge
 astralsorcery:potioncheatdeath

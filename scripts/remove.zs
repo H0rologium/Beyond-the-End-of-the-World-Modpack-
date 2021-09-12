@@ -49,6 +49,7 @@ recipes.removeByRecipeName("witherskelefix:recipe0");
 recipes.removeByRecipeName("clickmachine:recipe0");
 recipes.removeByRecipeName("bonsaitrees:bonsaipot");
 recipes.removeByRecipeName("bonsaitrees:bonsaipot_hopping");
+recipes.removeByRecipeName("sereneseasons:greenhouse_glass");
 
 
 //Remove AS tools, should feel like other options work

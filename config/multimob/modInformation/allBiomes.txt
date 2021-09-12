@@ -180,6 +180,7 @@ midnight:phantasmal_valley
 midnight:runebush_grove
 midnight:hilly_vigilant_forest
 midnight:hilly_fungi_forest
+aether_legacy:aether_highlands
 dimdoors:limbo
 dimdoors:white_void
 dimdoors:black_void
