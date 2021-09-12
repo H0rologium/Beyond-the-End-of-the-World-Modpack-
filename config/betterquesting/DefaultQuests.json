@@ -580,6 +580,17 @@
               },
               "Damage:2": 50,
               "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "fp:spaceship",
+              "Count:3": 1,
+              "tag:10": {
+                "note:10": {
+                  "last_view:3": 511
+                }
+              },
+              "Damage:2": 39,
+              "OreDict:8": ""
             }
           }
         },

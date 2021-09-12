@@ -4,7 +4,7 @@ mouseSensitivity:0.23239437
 fov:0.5
 gamma:0.04225352
 saturation:0.0
-renderDistance:12
+renderDistance:10
 guiScale:3
 particles:0
 bobView:true
@@ -24,12 +24,12 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 chatOpacity:0.7605634
-snooperEnabled:true
+snooperEnabled:false
 fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -52,7 +52,7 @@ enableWeakAttacks:false
 autoJump:false
 narrator:0
 tutorialStep:none
-soundCategory_master:0.80463576
+soundCategory_master:0.205298
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
