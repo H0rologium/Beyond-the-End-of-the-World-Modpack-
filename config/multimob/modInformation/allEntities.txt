@@ -95,6 +95,9 @@ astralsorcery:entityliquidspark
 astralsorcery:entityobservatoryhelper
 astralsorcery:entityshootingstar
 astralsorcery:entityitemdamageresistant
+quark:flat_item_frame
+quark:colored_item_frame
+quark:glass_item_frame
 quark:chest_passenger
 quark:stoneling
 quark:archaeologist
@@ -103,9 +106,6 @@ quark:dweller
 quark:ashen
 quark:frog
 quark:wraith
-quark:flat_item_frame
-quark:colored_item_frame
-quark:glass_item_frame
 bibliocraft:biblioseat
 biomesoplenty:mudball
 biomesoplenty:bop_boat
