@@ -103,3 +103,50 @@ for fruit in <ore:listAllfruit>.items {
 }
 
 
+val candles = [
+	<props:props:97>,
+	<props:props:97>,
+	<props:props:245>,
+	<props:props:655>,
+	<props:props:1035>,
+	<forestry:candle>,
+	<forestry:stump>,
+	<gardenstuff:candelabra>,
+	<harvestcraft:candledeco1>,
+	<harvestcraft:candledeco2>,
+	<harvestcraft:candledeco3>,
+	<harvestcraft:candledeco4>,
+	<harvestcraft:candledeco5>,
+	<harvestcraft:candledeco6>,
+	<harvestcraft:candledeco7>,
+	<harvestcraft:candledeco8>,
+	<harvestcraft:candledeco9>,
+	<harvestcraft:candledeco10>,
+	<harvestcraft:candledeco11>,
+	<harvestcraft:candledeco12>,
+	<harvestcraft:candledeco13>,
+	<harvestcraft:candledeco14>,
+	<harvestcraft:candledeco15>,
+	<harvestcraft:candledeco16>,
+	<thaumcraft:candle_white>,
+	<thaumcraft:candle_orange>,
+	<thaumcraft:candle_magenta>,
+	<thaumcraft:candle_lightblue>,
+	<thaumcraft:candle_yellow>,
+	<thaumcraft:candle_lime>,
+	<thaumcraft:candle_pink>,
+	<thaumcraft:candle_gray>,
+	<thaumcraft:candle_silver>,
+	<thaumcraft:candle_cyan>,
+	<thaumcraft:candle_purple>,
+	<thaumcraft:candle_blue>,
+	<thaumcraft:candle_brown>,
+	<thaumcraft:candle_green>,
+	<thaumcraft:candle_red>,
+	<thaumcraft:candle_black>
+
+] as IItemStack[];
+
+for candle in candles {
+	<ore:candle>.add(candle);
+}

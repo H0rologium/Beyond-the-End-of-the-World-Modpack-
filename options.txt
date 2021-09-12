@@ -2,9 +2,9 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.23239437
 fov:0.5
-gamma:0.0
+gamma:0.04225352
 saturation:0.0
-renderDistance:8
+renderDistance:10
 guiScale:3
 particles:0
 bobView:true
@@ -24,9 +24,9 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 chatOpacity:0.7605634
-snooperEnabled:true
+snooperEnabled:false
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:true
@@ -121,9 +121,9 @@ key_vc.key.openInventory:0
 key_vc.key.dropbomb:0
 key_key.narrator:0
 key_key.toggle_focus.desc:0
-key_key.fp.compositearmor:46
-key_key.fp.gleiter:57
-key_key.fp.modul_magnet:34
+key_key.fp.compositearmor:0
+key_key.fp.gleiter:0
+key_key.fp.modul_magnet:0
 key_key.jei.toggleOverlay:82:CONTROL
 key_key.jei.focusSearch:0
 key_key.jei.toggleCheatMode:0
@@ -151,12 +151,12 @@ key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_key.cofh.multimode:0
 key_key.colytra.toggle.desc:0
-key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailaconfig:0
 key_waila.keybind.wailadisplay:79
-key_waila.keybind.liquid:80
-key_waila.keybind.recipe:81
-key_waila.keybind.usage:75
-key_key.placeItem:25
+key_waila.keybind.liquid:0
+key_waila.keybind.recipe:0
+key_waila.keybind.usage:0
+key_key.placeItem:0
 key_key.toolConfig:0
 key_key.toolProfileChange:0
 key_key.armorProfileChange:0
@@ -168,7 +168,7 @@ key_key.toggleShields:0
 key_key.clipboardPaste:210
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
-key_key.immersiveengineering.magnetEquip:31
+key_key.immersiveengineering.magnetEquip:0
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_Open Backpack:48
 key_mekanism.key.mode:0
@@ -195,7 +195,7 @@ key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_preset:0
 key_key.journeymap.create_waypoint:0
-key_key.journeymap.toggle_waypoints:44
+key_key.journeymap.toggle_waypoints:0
 key_key.journeymap.fullscreen_create_waypoint:0
 key_key.journeymap.fullscreen_chat_position:0
 key_key.journeymap.map_toggle_alt:56
@@ -212,8 +212,8 @@ key_keybind.railcraft.loco.faster:0
 key_keybind.railcraft.loco.slower:0
 key_keybind.railcraft.loco.mode:0
 key_keybind.railcraft.loco.whistle:0
-soundCategory_master:0.65562916
-soundCategory_music:0.5070422
+soundCategory_master:0.205298
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

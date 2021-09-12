@@ -29,6 +29,11 @@ minecraft:lure
 minecraft:mending
 minecraft:vanishing_curse
 draconicevolution:enchant_reaper
+extrautils2:xu.kaboomerang
+extrautils2:xu.zoomerang
+extrautils2:xu.burnerang
+extrautils2:xu.bladerang
+extrautils2:xu.boomereaperang
 bibliocraft:bibliocraft.deathcompassench
 toughasnails:warming
 toughasnails:cooling

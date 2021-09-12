@@ -30,7 +30,7 @@ anySpawnMinDistance=32
 anySpawnMaxDistance=0
 #
 # allow displaying a block's data by hitting it with a stick
-enableStick=true
+enableStick=false
 #
 # dimension IDs whitelisted for ruins spawning, add custom dimensions IDs here as needed
 allowedDimensions=0,1,-1

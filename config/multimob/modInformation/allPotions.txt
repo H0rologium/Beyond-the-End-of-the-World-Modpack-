@@ -151,3 +151,11 @@ astralsorcery:potionspellplague
 astralsorcery:potiondropmodifier
 astralsorcery:potiontimefreeze
 bountifulbaubles:sinful
+extrautils2:effect.xu2.doom
+extrautils2:effect.xu2.gravity
+extrautils2:effect.xu2.second.chance
+extrautils2:effect.xu2.greek.fire
+extrautils2:effect.xu2.fizzy.lifting
+extrautils2:effect.xu2.relapse
+extrautils2:effect.xu2.love
+extrautils2:effect.xu2.purging

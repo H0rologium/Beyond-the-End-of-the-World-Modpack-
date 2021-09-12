@@ -95,9 +95,7 @@ astralsorcery:entityliquidspark
 astralsorcery:entityobservatoryhelper
 astralsorcery:entityshootingstar
 astralsorcery:entityitemdamageresistant
-quark:flat_item_frame
-quark:colored_item_frame
-quark:glass_item_frame
+quark:chest_passenger
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -105,11 +103,9 @@ quark:dweller
 quark:ashen
 quark:frog
 quark:wraith
-quark:chest_passenger
-avaritia:endest_pearl
-avaritia:gaping_void
-avaritia:heaven_arrow
-avaritia:heaven_sub_arrow
+quark:flat_item_frame
+quark:colored_item_frame
+quark:glass_item_frame
 bibliocraft:biblioseat
 biomesoplenty:mudball
 biomesoplenty:bop_boat
@@ -149,6 +145,8 @@ draconicevolution:entitychaosenergyvortex
 draconicevolution:customarrow
 draconicevolution:lootcore
 draconicevolution:enderenergymanipulator
+extrautils2:boomerang
+extrautils2:chunkdata
 familiarfauna:familiarfauna.butterfly
 familiarfauna:familiarfauna.deer
 familiarfauna:familiarfauna.dragonfly

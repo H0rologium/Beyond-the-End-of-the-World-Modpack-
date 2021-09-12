@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.23239437
 fov:0.5
-gamma:0.0
+gamma:0.04225352
 saturation:0.0
 renderDistance:12
 guiScale:3
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:0.7605634
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:true
@@ -52,7 +52,7 @@ enableWeakAttacks:false
 autoJump:false
 narrator:0
 tutorialStep:none
-soundCategory_master:1.0
+soundCategory_master:0.80463576
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
