@@ -26,3 +26,8 @@ recipes.removeByRecipeName("immersiveengineering:metal_devices/garden_cloche");
 recipes.addShaped("btegclioche",<immersiveengineering:metal_device1:13>, [[<ore:blockGlassGreen>,<immersiveengineering:material:26>,<ore:blockGlassGreen>],[<ore:blockGlassGreen>,<bonsaitrees:bonsaipot:1>,<ore:blockGlassGreen>],[<ore:plankTreatedWood>,<immersiveengineering:material:8>,<ore:plankTreatedWood>]]);
 
 
+//Stone sword (NTC fix)
+recipes.addShaped("btess", <minecraft:stone_sword>, [[null,<ore:cobblestone>,null],[null,<ore:cobblestone>,null],[null,<ore:stickWood>,null]]);
+//IE Hammer fix
+recipes.removeByRecipeName("immersiveengineering:tool/hammer");
+recipes.addShaped(<immersiveengineering:tool>, [[null, <ore:ingotIron>, <ore:string>],[null, <ore:stickWood>, <ore:ingotIron>],[<ore:stickWood>, null, null]]);
