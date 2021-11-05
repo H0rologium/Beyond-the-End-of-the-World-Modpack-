@@ -27,3 +27,12 @@ recipes.addShaped(<sereneseasons:greenhouse_glass> * 4, [[<ore:dyeCyan>, <minecr
 
 //Stone Pickaxe
 recipes.addShaped(<minecraft:stone_pickaxe>, [[<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],[<ore:cobblestone>,<ore:stickwood>,<ore:cobblestone>],[null,<ore:stick>,null]]);
+
+//Small tree cutter
+recipes.addShaped(<engineersdecor:small_tree_cutter>, [[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],[<ore:ingotIron>, <buildcraftcore:engine>, <minecraft:iron_axe>],[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
+
+//Iron Gear
+recipes.addShaped(<thermalfoundation:material:24>,[[null, <ore:ingotIron>, null],[<ore:ingotIron>, <ore:gearStone>, <ore:ingotIron>],[null, <ore:ingotIron>, null]]);
+
+
+
