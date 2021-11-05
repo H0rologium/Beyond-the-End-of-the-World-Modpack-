@@ -1,6 +1,8 @@
 # Beyond-the-End-of-the-World-Modpack-
 A fun, semi- expert modpack for minecraft 1.12.2 FORGE
 
+<h3>Please feel free to report issues and/or suggestions! Feedback helps!</h3>
+
 Primary focus is on letting the player choose what they want to do with a huge array of big mods.
 
 
