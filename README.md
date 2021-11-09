@@ -16,9 +16,10 @@ Includes more things to fight as well (DivineRPG, Scape and Run Parasites, Mutan
 
 And lots of exploration (Future Pack, Aether, The Beneath, BoP, NetherEx)
 
-Not to mention a lot of performance mods (Entity Culling, Particle Culling, FastWorkbench, 
+Not to mention a lot of performance mods (Entity Culling, Particle Culling, FastWorkbench, Foamfix, Performant, Surge)
 
 In order to get the pack to work, you WILL need a recommended minimum of 10GB ram allocated.
+
 Includes optional configs for extra mods if you feel like adding them: Lycanites Mobs, Optifine.
 
 MODLIST.txt contains all mods necessary as well as their versions. 
