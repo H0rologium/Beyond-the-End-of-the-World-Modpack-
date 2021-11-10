@@ -35,8 +35,6 @@ extrautils2:xu.burnerang
 extrautils2:xu.bladerang
 extrautils2:xu.boomereaperang
 bibliocraft:bibliocraft.deathcompassench
-toughasnails:warming
-toughasnails:cooling
 cqrepoured:lightning_protection
 cqrepoured:spectral
 divinerpg:rive

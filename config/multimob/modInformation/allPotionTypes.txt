@@ -35,10 +35,6 @@ minecraft:strong_strength
 minecraft:weakness
 minecraft:long_weakness
 minecraft:luck
-toughasnails:cold_resistance_type
-toughasnails:long_cold_resistance_type
-toughasnails:heat_resistance_type
-toughasnails:long_heat_resistance_type
 extraalchemy:fuse_normal
 extraalchemy:fuse_strong
 extraalchemy:fuse_quick
