@@ -93,7 +93,7 @@ mods.ItemStages.stageModItems("Industrial", "extrautils2");
 mods.ItemStages.stageModItems("Industrial", "ironjetpacks");
 mods.ItemStages.stageModItems("Industrial", "plethora");
 mods.ItemStages.stageModItems("Industrial", "packagedauto");
-
+mods.ItemStages.stageModItems("Industrial", "immersiverailroading");
 
 
 
