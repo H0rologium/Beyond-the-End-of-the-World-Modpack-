@@ -6,7 +6,6 @@ AE2WTLib-1.12.2-1.0.34
 aether-1.12.2-v1.5.3.2
 AIImprovements-1.12-0.0.1b3
 alcatrazcore-1.0.4
-ancientwarfare-1.12.2-2.7.0.1038
 Apotheosis-1.12.2-1.12.5
 AppleCore-mc1.12.2-3.4.0
 AppleSkin-mc1.12-1.0.14
@@ -29,9 +28,11 @@ betterbiomeblend-1.12.2-1.1.6-forge
 bettercaves-1.12.2-2.0.4
 BetterFps-1.4.8
 BetterMineshaftsForge-1.12.2-2.1.1
+betternether-0.1.8.6
 BetterQuesting-3.5.329
 BiblioCraft[v2.4.5][MC1.12.2]
 BiomesOPlenty-1.12.2-7.0.1.2444-universal
+Biome_Bundle_O_Plenty-1.12.2_v1.0
 blockcraftery-1.12.2-1.3.1
 Bloodmoon-MC1.12.2-1.5.3
 BNBGamingCore-1.12.2-0.12.0
@@ -86,6 +87,7 @@ dirt2path-1.8.0
 DivineRPG-1.7.1
 DoomlikeDungeons-1.14.7-MC1.12.2
 Draconic-Evolution-1.12.2-2.3.27.353-universal
+Dregora-1.12.2-v1.66.2
 EnderStorage-1.12.2-2.4.6.137-universal
 engineersdecor-1.12.2-1.1.2
 environmentalmaterials-1.12.2-1.0.20.1
@@ -97,6 +99,7 @@ extrautils2-1.12-1.9.9
 ExtremeReactors-1.12.2-0.4.5.50
 FamiliarFauna-1.12.2-1.0.11
 FarmingForBlockheads_1.12.2-3.1.28
+Far_From_Home-1.12.2-6.1
 FastFurnace-1.12.2-1.3.1
 FastWorkbench-1.12.2-1.7.3
 fencejumper-1.12-1.0.5
@@ -206,7 +209,6 @@ mysticallib-1.12.2-1.9.0
 NaturesCompass-1.12.2-1.8.5
 Neat 1.4-17
 NetherEx-1.12.2-2.2.5
-NetherPortalFix_1.12.1-5.3.17
 NoMobSpawningOnTrees-1.2.2-mc1.12.2
 noRecipeBook_v1.2.2formc1.12.2
 NotEnoughIDs-1.5.4.4
@@ -219,7 +221,7 @@ OpenComputers-MC1.12.2-1.7.5.192
 OpenGlider-1.12.1-1.1.0
 OpenModsLib-1.12.2-0.12.2
 openmodularturrets-1.12.2-3.1.12-378
-OptiFine_1.12.2_HD_U_G5_MOD
+OpenTerrainGenerator-1.12.2-v9.3
 OreStages-1.12.2-2.0.37
 overloadedarmorbar-1.0.4g
 p455w0rdslib-1.12.2-2.3.161
@@ -306,7 +308,6 @@ Uppers-0.0.6
 usefulnullifiers-1.5.0
 valkyrielib-1.12.2-2.0.20.1
 ViesCraft-1.12.2-5.9.16
-Voice Chat Reloaded-1.2.5
 WailaStages-1.12.2-2.0.23
 WanionLib-1.12.2-2.5
 WaterStrainer-1.12-3.2.0
