@@ -24,6 +24,8 @@ recipes.addShaped(<extrautils2:redstoneclock>, [[<extrautils2:compressedcobblest
 
 //Serene Seasons
 recipes.addShaped(<sereneseasons:greenhouse_glass> * 4, [[<ore:dyeCyan>, <minecraft:glass>, <ore:dyeCyan>],[<minecraft:glass>, <minecraft:planks>, <minecraft:glass>], [<ore:dyeCyan>, <minecraft:glass>, <ore:dyeCyan>]]);
+recipes.addShaped(<sereneseasons:greenhouse_glass> * 4, [[<ore:dyeBlue>, <minecraft:glass>, <ore:dyeBlue>],[<minecraft:glass>, <minecraft:planks>, <minecraft:glass>], [<ore:dyeBlue>, <minecraft:glass>, <ore:dyeBlue>]]);
+recipes.addShaped(<sereneseasons:greenhouse_glass> * 4, [[<ore:dyeGreen>, <minecraft:glass>, <ore:dyeGreen>],[<minecraft:glass>, <minecraft:planks>, <minecraft:glass>], [<ore:dyeGreen>, <minecraft:glass>, <ore:dyeGreen>]]);
 
 //Stone Pickaxe
 recipes.addShaped(<minecraft:stone_pickaxe>, [[<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],[<ore:cobblestone>,<ore:stickwood>,<ore:cobblestone>],[null,<ore:stick>,null]]);

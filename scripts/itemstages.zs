@@ -30,9 +30,12 @@ mods.ItemStages.stageModItems("Stone", "srparasites");
 mods.ItemStages.stageModItems("Stone", "thaumcraft");
 mods.ItemStages.stageModItems("Stone", "waterstrainer");
 mods.ItemStages.stageModItems("Stone", "cqrepoured");
-
-
-
+//mods.ItemStages.stageModItems("Stone", "ancientwarfareautomation");
+//mods.ItemStages.stageModItems("Stone", "ancientwarfarenpc");
+//mods.ItemStages.stageModItems("Stone", "ancientwarfarestructure");
+//mods.ItemStages.stageModItems("Stone", "ancientwarfare");
+//mods.ItemStages.stageModItems("Stone", "ancientwarfarevehicle");
+mods.ItemStages.stageModItems("Stone", "grimoireofgaia");
 
 //Metallic Era
 mods.ItemStages.stageModItems("Metallic", "bibliocraft");
@@ -92,8 +95,9 @@ mods.ItemStages.stageModItems("Industrial", "engineersdecor");
 mods.ItemStages.stageModItems("Industrial", "extrautils2");
 mods.ItemStages.stageModItems("Industrial", "ironjetpacks");
 mods.ItemStages.stageModItems("Industrial", "plethora");
-mods.ItemStages.stageModItems("Industrial", "packagedauto");
 mods.ItemStages.stageModItems("Industrial", "immersiverailroading");
+mods.ItemStages.stageModItems("Industrial", "packagedauto");
+mods.ItemStages.stageModItems("Industrial", "mts");
 
 
 
@@ -103,7 +107,7 @@ mods.ItemStages.stageModItems("Space", "fp");
 mods.ItemStages.stageModItems("Space", "mob_grinding_utils");
 mods.ItemStages.stageModItems("Space", "environmentaltech");
 mods.ItemStages.stageModItems("Space", "actuallyadditions");
-
+mods.ItemStages.stageModItems("Post-Tech", "sync");
 
 
 //Post-Tech Age
@@ -113,7 +117,7 @@ mods.ItemStages.addItemStage("Post-Tech", <minecraft:end_portal_frame>);
 mods.ItemStages.addItemStage("Post-Tech", <extraalchemy:empty_ring>);
 mods.ItemStages.stageModItems("Post-Tech", "rftoolsdim");
 mods.ItemStages.stageModItems("Post-Tech", "soulshardsrespawn");
-mods.ItemStages.stageModItems("Post-Tech", "sync");
+
 //mods.ItemStages.stageModItems("Post-Tech", "dimdoors");
 
 //Ascendant Era

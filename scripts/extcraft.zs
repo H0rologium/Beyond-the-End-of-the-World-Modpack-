@@ -12,6 +12,93 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <sync:item_placeholder>, [
 	[<ore:gemLapis>, <ore:blockRedstone>, <ore:gemLapis>], 
 	[<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:block_misc:8>, <actuallyadditions:item_crystal_empowered:3>]
 ]);
+//Mekanism Blocks
+
+//Power cables
+recipes.removeByRecipeName("mekanism:transmitter_0_alt");
+recipes.addShaped(<mekanism:transmitter>.withTag({tier: 1}) * 8, [[<mekanism:transmitter>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter>.withTag({tier: 0}).onlyWithTag({tier: 0})],[<mekanism:transmitter>.withTag({tier: 0}).onlyWithTag({tier: 0}), <minecraft:redstone>, <mekanism:transmitter>.withTag({tier: 0}).onlyWithTag({tier: 0})], [<mekanism:transmitter>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter>.withTag({tier: 0}).onlyWithTag({tier: 0})]]);
+recipes.removeByRecipeName("mekanism:transmitter_0_alt_alt");
+recipes.addShaped(<mekanism:transmitter>.withTag({tier: 2}) * 8, [[<mekanism:transmitter>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1}).onlyWithTag({tier: 1})],[<mekanism:transmitter>.withTag({tier: 1}).onlyWithTag({tier: 1}), <minecraft:diamond>, <mekanism:transmitter>.withTag({tier: 1}).onlyWithTag({tier: 1})], [<mekanism:transmitter>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter>.withTag({tier: 1}).onlyWithTag({tier: 1})]]);
+recipes.removeByRecipeName("mekanism:transmitter_0_alt_alt_alt");
+recipes.addShaped(<mekanism:transmitter>.withTag({tier: 3}), [[<mekanism:transmitter>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2}).onlyWithTag({tier: 2})],[<mekanism:transmitter>.withTag({tier: 2}).onlyWithTag({tier: 2}), <minecraft:obsidian>, <mekanism:transmitter>.withTag({tier: 2}).onlyWithTag({tier: 2})], [<mekanism:transmitter>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter>.withTag({tier: 2}).onlyWithTag({tier: 2})]]);
+
+//Mechanical Pipe
+recipes.removeByRecipeName("mekanism:transmitter_1_alt");
+recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 1}) * 7, [[<mekanism:transmitter:1>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:1>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:1>.withTag({tier: 0}).onlyWithTag({tier: 0})],[<mekanism:transmitter:1>.withTag({tier: 0}).onlyWithTag({tier: 0}), <minecraft:redstone>, <mekanism:transmitter:1>.withTag({tier: 0}).onlyWithTag({tier: 0})], [<mekanism:transmitter:1>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:1>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:1>.withTag({tier: 0}).onlyWithTag({tier: 0})]]);
+recipes.removeByRecipeName("mekanism:transmitter_1_alt_alt");
+recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 2}) * 8, [[<mekanism:transmitter:1>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:1>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:1>.withTag({tier: 1}).onlyWithTag({tier: 1})],[<mekanism:transmitter:1>.withTag({tier: 1}).onlyWithTag({tier: 1}), <minecraft:diamond>, <mekanism:transmitter:1>.withTag({tier: 1}).onlyWithTag({tier: 1})], [<mekanism:transmitter:1>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:1>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:1>.withTag({tier: 1}).onlyWithTag({tier: 1})]]);
+recipes.removeByRecipeName("mekanism:transmitter_1_alt_alt_alt");
+recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 3}) * 8, [[<mekanism:transmitter:1>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:1>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:1>.withTag({tier: 2}).onlyWithTag({tier: 2})],[<mekanism:transmitter:1>.withTag({tier: 2}).onlyWithTag({tier: 2}), <minecraft:obsidian>, <mekanism:transmitter:1>.withTag({tier: 2}).onlyWithTag({tier: 2})], [<mekanism:transmitter:1>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:1>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:1>.withTag({tier: 2}).onlyWithTag({tier: 2})]]);
+
+//Pressurized tube
+recipes.removeByRecipeName("mekanism:transmitter_2_alt");
+recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 1}) * 8, [[<mekanism:transmitter:2>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:2>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:2>.withTag({tier: 0}).onlyWithTag({tier: 0})],[<mekanism:transmitter:2>.withTag({tier: 0}).onlyWithTag({tier: 0}), <minecraft:redstone>, <mekanism:transmitter:2>.withTag({tier: 0}).onlyWithTag({tier: 0})], [<mekanism:transmitter:2>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:2>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:2>.withTag({tier: 0}).onlyWithTag({tier: 0})]]);
+recipes.removeByRecipeName("mekanism:transmitter_2_alt_alt");
+recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 2}) * 8, [[<mekanism:transmitter:2>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:2>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:2>.withTag({tier: 1}).onlyWithTag({tier: 1})],[<mekanism:transmitter:2>.withTag({tier: 1}).onlyWithTag({tier: 1}), <minecraft:diamond>, <mekanism:transmitter:2>.withTag({tier: 1}).onlyWithTag({tier: 1})], [<mekanism:transmitter:2>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:2>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:2>.withTag({tier: 1}).onlyWithTag({tier: 1})]]);
+recipes.removeByRecipeName("mekanism:transmitter_2_alt_alt_alt");
+recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 3}) * 8, [[<mekanism:transmitter:2>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:2>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:2>.withTag({tier: 2}).onlyWithTag({tier: 2})],[<mekanism:transmitter:2>.withTag({tier: 2}).onlyWithTag({tier: 2}), <minecraft:obsidian>, <mekanism:transmitter:2>.withTag({tier: 2}).onlyWithTag({tier: 2})], [<mekanism:transmitter:2>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:2>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:2>.withTag({tier: 2}).onlyWithTag({tier: 2})]]);
+
+//Logistical Transporter
+recipes.removeByRecipeName("mekanism:transmitter_3_alt");
+recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 1}) * 8, [[<mekanism:transmitter:3>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:3>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:3>.withTag({tier: 0}).onlyWithTag({tier: 0})],[<mekanism:transmitter:3>.withTag({tier: 0}).onlyWithTag({tier: 0}), <minecraft:redstone>, <mekanism:transmitter:3>.withTag({tier: 0}).onlyWithTag({tier: 0})], [<mekanism:transmitter:3>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:3>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:3>.withTag({tier: 0}).onlyWithTag({tier: 0})]]);
+recipes.removeByRecipeName("mekanism:transmitter_3_alt_alt");
+recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 2}) * 8, [[<mekanism:transmitter:3>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:3>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:3>.withTag({tier: 1}).onlyWithTag({tier: 1})],[<mekanism:transmitter:3>.withTag({tier: 1}).onlyWithTag({tier: 1}), <minecraft:diamond>, <mekanism:transmitter:3>.withTag({tier: 1}).onlyWithTag({tier: 1})], [<mekanism:transmitter:3>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:3>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:3>.withTag({tier: 1}).onlyWithTag({tier: 1})]]);
+recipes.removeByRecipeName("mekanism:transmitter_3_alt_alt_alt");
+recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 3}), [[<mekanism:transmitter:3>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:3>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:3>.withTag({tier: 2}).onlyWithTag({tier: 2})],[<mekanism:transmitter:3>.withTag({tier: 2}).onlyWithTag({tier: 2}), <minecraft:obsidian>, <mekanism:transmitter:3>.withTag({tier: 2}).onlyWithTag({tier: 2})], [<mekanism:transmitter:3>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:3>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:3>.withTag({tier: 2}).onlyWithTag({tier: 2})]]);
+
+//Thermal pipes
+recipes.removeByRecipeName("mekanism:transmitter_6_alt");
+recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 1}), [[<mekanism:transmitter:6>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:6>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:6>.withTag({tier: 0}).onlyWithTag({tier: 0})],[<mekanism:transmitter:6>.withTag({tier: 0}).onlyWithTag({tier: 0}), <minecraft:redstone>, <mekanism:transmitter:6>.withTag({tier: 0}).onlyWithTag({tier: 0})], [<mekanism:transmitter:6>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:6>.withTag({tier: 0}).onlyWithTag({tier: 0}), <mekanism:transmitter:6>.withTag({tier: 0}).onlyWithTag({tier: 0})]]);
+recipes.removeByRecipeName("mekanism:transmitter_6_alt_alt");
+recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 2}) * 8, [[<mekanism:transmitter:6>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:6>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:6>.withTag({tier: 1}).onlyWithTag({tier: 1})],[<mekanism:transmitter:6>.withTag({tier: 1}).onlyWithTag({tier: 1}), <minecraft:diamond>, <mekanism:transmitter:6>.withTag({tier: 1}).onlyWithTag({tier: 1})], [<mekanism:transmitter:6>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:6>.withTag({tier: 1}).onlyWithTag({tier: 1}), <mekanism:transmitter:6>.withTag({tier: 1}).onlyWithTag({tier: 1})]]);
+recipes.removeByRecipeName("mekanism:transmitter_6_alt_alt_alt");
+recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 3}) * 8, [[<mekanism:transmitter:6>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:6>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:6>.withTag({tier: 2}).onlyWithTag({tier: 2})],[<mekanism:transmitter:6>.withTag({tier: 2}).onlyWithTag({tier: 2}), <minecraft:obsidian>, <mekanism:transmitter:6>.withTag({tier: 2}).onlyWithTag({tier: 2})], [<mekanism:transmitter:6>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:6>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:transmitter:6>.withTag({tier: 2}).onlyWithTag({tier: 2})]]);
+
+//Mekanism resources
+mods.extendedcrafting.TableCrafting.addShapeless(1, <mekanism:ingot:1>, [<ore:ingotIron>, <ore:ingotSteel>]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <mekanism:enrichedalloy>, [
+	[null, <ore:ingotIron>, null], 
+	[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], 
+	[null, <ore:ingotIron>, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <mekanism:reinforcedalloy>, [
+	[null, <ore:ingotOsmium>, null], 
+	[<ore:ingotOsmium>, <ore:gemDiamond>, <ore:ingotOsmium>], 
+	[null, <ore:ingotOsmium>, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <mekanism:atomicalloy>, [
+	[null, <ore:ingotOsmium>, null], 
+	[<ore:ingotOsmium>, <ore:obsidian>, <ore:ingotOsmium>], 
+	[null, <ore:ingotOsmium>, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <mekanism:controlcircuit>, [
+	[null, <ore:ingotSteel>, null], 
+	[<ore:ingotSteel>, <ore:itemEnrichedAlloy>, <ore:ingotSteel>], 
+	[null, <ore:ingotSteel>, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <mekanism:controlcircuit:1>, [
+	[null, <ore:ingotSteel>, null], 
+	[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], 
+	[null, <ore:ingotSteel>, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <mekanism:controlcircuit:2>, [
+	[null, <ore:ingotSteel>, null], 
+	[<ore:ingotSteel>, <ore:alloyElite>, <ore:ingotSteel>], 
+	[null, <ore:ingotSteel>, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <mekanism:controlcircuit:3>, [
+	[null, <ore:ingotSteel>, null], 
+	[<ore:ingotSteel>, <ore:alloyUltimate>, <ore:ingotSteel>], 
+	[null, <ore:ingotSteel>, null]
+]);
+recipes.addShaped(<mekanism:energytablet>, [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],[<thermalfoundation:material:160>, <mekanism:enrichedalloy>, <thermalfoundation:material:160>], [<thermalfoundation:material:160>, <mekanism:enrichedalloy>, <thermalfoundation:material:160>]]);
+
+
+//Machine pump
+recipes.removeByRecipeName("mekanism:machineblock:12");
+recipes.addShaped(<mekanism:machineblock:12>, [[<mekanism:transmitter:1>, <mekanism:transmitter:1>, <minecraft:redstone>],[<advgenerators:iron_wiring>, <mekanism:machineblock2:11>.withTag({tier: 1}).onlyWithTag({tier: 1}), <minecraft:redstone>], [<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>]]);
+
+
 
 //Potion rings
 recipes.removeByRecipeName("potionfingers:ring");
@@ -113,6 +200,15 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <minecraft:mob_spawner>, [
 	[<actuallyadditions:item_misc:20>, <ore:netherStar>, <industrialforegoing:mob_imprisonment_tool>, <ore:netherStar>, <actuallyadditions:item_misc:20>], 
 	[<actuallyadditions:item_misc:20>, <ore:netherStar>, <ore:netherStar>, <ore:netherStar>, <actuallyadditions:item_misc:20>], 
 	[<actuallyadditions:item_misc:20>, <actuallyadditions:item_misc:20>, <actuallyadditions:item_misc:20>, <actuallyadditions:item_misc:20>, <actuallyadditions:item_misc:20>]
+]);
+
+//Vies
+mods.extendedcrafting.TableCrafting.addShaped(2, <vc:airship_workbench>, [
+	[<vc:item_airship_balloon>, <vc:item_airship_balloon>, <vc:item_airship_balloon>, <vc:item_airship_balloon>, <vc:item_airship_balloon>], 
+	[<vc:item_airship_balloon>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <extendedcrafting:material:36>, <vc:item_airship_balloon>], 
+	[<vc:item_airship_balloon>, <extendedcrafting:material:36>, <ore:workbench>, <extendedcrafting:material:36>, <vc:item_airship_balloon>], 
+	[<vc:item_airship_balloon>, <extendedcrafting:material:14>, <extendedcrafting:material:14>, <extendedcrafting:material:14>, <vc:item_airship_balloon>], 
+	[<vc:item_airship_balloon>, <vc:item_airship_balloon>, <vc:item_airship_balloon>, <vc:item_airship_balloon>, <vc:item_airship_balloon>]
 ]);
 
 

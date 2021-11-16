@@ -11,4 +11,5 @@ recipes.addShapeless(<minecraft:glass>, [<ore:paneGlassColorless>, <ore:paneGlas
 //Fertilizer recipe addition
 recipes.addShapeless(<actuallyadditions:item_fertilizer>, [<minecraft:sugar>,<minecraft:coal>,<minecraft:clay_ball>, <minecraft:wheat_seeds>]);
 
-
+//Pigstep
+recipes.addShapeless("bte_pigdisc",<futuremc:record_pigstep>,[<minecraft:netherrack>,<minecraft:gold_nugget>,<minecraft:jukebox>]);
