@@ -1,6 +1,8 @@
 # Beyond-the-End-of-the-World-Modpack-
 A fun modpack for minecraft 1.12.2 FORGE
 
+PLEASE NOTE, THE 1.12.2 VERSION OF THIS MODPACK IS ABANDONED!
+
 <h3>Please feel free to report issues and/or suggestions! Feedback helps!</h3>
 
 Primary focus is on letting the player choose what they want to do with a huge array of big mods. Minecraft has always been a fun sandbox game, so why not expand it by a vast amount with a large arrangement of new options!
