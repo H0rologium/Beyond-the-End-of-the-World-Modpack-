@@ -1,7 +1,9 @@
 ## Beyond the end of the World 
 
 ### A modpack focusing on endless gamplay with fun progression and lots of tools to play with.
-This is the 1.16.5 version of the modpack.
+
+Different versions of the modpack are located in their own branches.
+
 
 
 
