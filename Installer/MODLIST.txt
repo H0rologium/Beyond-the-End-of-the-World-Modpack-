@@ -1,3 +1,4 @@
+FORMAT - DOWNLOADURL-PROJECTID
 JEI 
 https://www.curseforge.com/minecraft/mc-mods/jei/download/3599262-238222
 AppleSkin
@@ -9,7 +10,7 @@ https://www.curseforge.com/minecraft/mc-mods/fastworkbench/download/3639779-2888
 McCrayfish's Furniture Mod
 https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod/download/2749993-55438
 Comforts
-https://www.curseforge.com/minecraft/mc-mods/comforts/download/3650609-276951
+https://www.curseforge.com/minecraft/mc-mods/comforts/download/3650599-276951
 Neat
 https://www.curseforge.com/minecraft/mc-mods/neat/download/3593906-238372
 Cosmetic Armor Reworked
@@ -48,8 +49,6 @@ RangedPumps
 https://www.curseforge.com/minecraft/mc-mods/ranged-pumps/download/3570718-247496
 CurioOfUndying
 https://www.curseforge.com/minecraft/mc-mods/curio-of-undying/download/3553486-316873
-BonsaiTrees
-https://www.curseforge.com/minecraft/mc-mods/bonsai-trees/download/3645388-278993
 IronJetpacks
 https://www.curseforge.com/minecraft/mc-mods/iron-jetpacks/download/3581366-284497
 Wither Skeleton Tweaks
@@ -118,8 +117,6 @@ Dynmap - Forge
 https://www.curseforge.com/minecraft/mc-mods/dynmapforge/download/3637296-59433
 Itemflexer
 https://www.curseforge.com/minecraft/mc-mods/itemflexer/download/3411168-421147
-XP IS No Object
-https://www.curseforge.com/minecraft/mc-mods/xpisnoobject/download/3605305-566404
 Assembly Line Machines
 https://www.curseforge.com/minecraft/mc-mods/assemblylinemachines/download/3623609-388282
 Big Beacons
@@ -146,8 +143,6 @@ END Remastered
 https://www.curseforge.com/minecraft/mc-mods/endremastered/download/3600701-404183
 When Dungeons Arise
 https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise/download/3632092-442508
-Enigmatic Legacy
-https://www.curseforge.com/minecraft/mc-mods/enigmatic-legacy/download/3649937-336184
 PlayerRevive
 https://www.curseforge.com/minecraft/mc-mods/playerrevive/download/3632749-266890
 Dimensional Dungeons
@@ -176,6 +171,10 @@ Awesome Dungeon - End
 https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-the-end-forge/download/3647819-575406
 Alex's Mobs
 https://www.curseforge.com/minecraft/mc-mods/alexs-mobs/download/3650308-426558
+Dynamic Electricity
+https://www.curseforge.com/minecraft/mc-mods/dynamic-electricity/download/3621151-535933
+RFTools Builder
+https://www.curseforge.com/minecraft/mc-mods/rftools-builder/download/3646668-347706
 ----------------------------------------Library Mods---------------------------------
 Flywheel
 https://www.curseforge.com/minecraft/mc-mods/flywheel/download/3623314-486392
@@ -185,6 +184,63 @@ ClothAPI
 https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge/download/3641133-348521
 Curious API
 https://www.curseforge.com/minecraft/mc-mods/curios/download/3648837-309927
+Structure Gel API
+https://www.curseforge.com/minecraft/mc-mods/structure-gel-api/download/3629303-378802
+----------Library Mods----------
+Scalable Cat's Force
+https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force/download/3634756-320926
+SuperMartijn642's Core Lib
+https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/download/3649270-454372
+Placebo
+https://www.curseforge.com/minecraft/mc-mods/placebo/download/3647860-283644
+CreativeCore
+https://www.curseforge.com/minecraft/mc-mods/creativecore/download/3650213-257814
+Caelus API (Forge)
+https://www.curseforge.com/minecraft/mc-mods/caelus/download/3650485-308989
+SuperMartijn642's Config Lib
+https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/download/3542143-438332
+Architectury API (Forge)
+https://www.curseforge.com/minecraft/mc-mods/architectury-forge/download/3652010-419699
+Structure Spawn Loader
+https://www.curseforge.com/minecraft/mc-mods/structure-spawn-loader/download/3568380-557581
+No Null Processors
+https://www.curseforge.com/minecraft/mc-mods/no-null-processors/download/3570790-546841
+McJtyLib
+https://www.curseforge.com/minecraft/mc-mods/mcjtylib/download/3641837-233105
+Electrodynamics
+https://www.curseforge.com/minecraft/mc-mods/electrodynamics/download/3620519-316867
+SilentLib
+https://www.curseforge.com/minecraft/mc-mods/silent-lib/download/3543045-242998
+Citadel
+https://www.curseforge.com/minecraft/mc-mods/citadel/download/3642713-331936
+Collective (Forge)
+https://www.curseforge.com/minecraft/mc-mods/collective/download/3650976-342584
+GeckoLib
+https://www.curseforge.com/minecraft/mc-mods/geckolib/download/3629661-388172
+TerraBlender (Forge)
+https://www.curseforge.com/minecraft/mc-mods/terrablender/download/3619749-563928
+ThutCore
+https://www.curseforge.com/minecraft/mc-mods/thutcore/download/3607763-224428
+AutoRegLib
+https://www.curseforge.com/minecraft/mc-mods/autoreglib/download/3642382-250363
+Feature NBT Deadlock Be Gone
+https://www.curseforge.com/minecraft/mc-mods/feature-nbt-deadlock-be-gone/download/3580119-560323
+Many Ideas Core
+https://www.curseforge.com/minecraft/mc-mods/many-ideas-core/download/3563788-433642
+Recipes Library
+https://www.curseforge.com/minecraft/mc-mods/recipes-library/download/3563778-398351
+Looot
+https://www.curseforge.com/minecraft/mc-mods/looot/download/3549153-420925
+ForgeEndertech
+https://www.curseforge.com/minecraft/mc-mods/forgeendertech/download/3652053-244844
+YUNG's API (Forge)
+https://www.curseforge.com/minecraft/mc-mods/yungs-api/download/3652542-421850
+Cucumber Library
+https://www.curseforge.com/minecraft/mc-mods/cucumber/download/3623830-272335
+RFTools Base
+https://www.curseforge.com/minecraft/mc-mods/rftools-base/download/3645680-326041
+Library Ferret - Forge
+https://www.curseforge.com/minecraft/mc-mods/library-ferret-forge/download/3597907-532727
 ----------------------------------------CraftTweaker Stuff--------------------------
 JEI Tweaker
 https://www.curseforge.com/minecraft/mc-mods/jeitweaker/download/3648619-368718
@@ -203,12 +259,8 @@ DefaultOptions
 https://www.curseforge.com/minecraft/mc-mods/default-options/download/3630249-232131
 AttributeFix
 https://www.curseforge.com/minecraft/mc-mods/attributefix/download/3615619-280510
-InControl
-https://www.curseforge.com/minecraft/mc-mods/in-control/download/3650522-257356
 Lootr!
 https://www.curseforge.com/minecraft/mc-mods/lootr/download/3632374-361276
-Lithium
-https://www.curseforge.com/minecraft/mc-mods/lithium/download/3590908-360438
 JAOPCA
 https://www.curseforge.com/minecraft/mc-mods/jaopca/download/3637685-266936
 The Mighty Architest
@@ -220,7 +272,7 @@ https://www.curseforge.com/minecraft/mc-mods/global-gamerules/download/3583363-2
 DeathLog
 https://www.curseforge.com/minecraft/mc-mods/deathlog/download/3603579-496150
 BetterFPS
-https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance/download/3598710-551520
+https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance/download/3598709-551520
 OreTweaker
 https://www.curseforge.com/minecraft/mc-mods/ore-tweaker/download/3632037-242436
 Here Be No Dragons

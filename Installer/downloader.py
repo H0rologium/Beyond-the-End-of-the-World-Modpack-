@@ -21,12 +21,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
-# Downloads mods from a CurseForge modpack's manifest.json file and puts them in a folder (for now)
+# HUGE THANKS TO PISTOLRCKS ON GITHUB FOR PROVIDING THE ORIGNAL 
 import re
 import os
 import requests as rq
 import json
 import sys
+from filemanagement import *
+import time
 
 
 # Load project IDs and version number
@@ -50,12 +52,6 @@ FILE_IDS = [file["fileID"] for file in manifest["files"]]
 PROJECT_IDS = [file["projectID"] for file in manifest["files"]] # Project IDs of the mods, as shown on the mod page
 VERSION = manifest["minecraft"]["version"] # Name of the game version
 
-# Create the mods folder if we don't already have it
-if not os.path.isdir("mods"):
-    os.mkdir("mods")
-
-
-# TODO: Allow for other modloaders
 # Download Forge installer
 # Get the first primary Forge version, and extract the version number
 FORGE_VERSION = re.sub(r"forge-", "", [version["id"] for version in manifest["minecraft"]["modLoaders"] if version["primary"]][0])
@@ -66,41 +62,52 @@ with open(f"forge-{VERSION}-{FORGE_VERSION}-installer.jar", "wb") as f:
 print(f"Forge version {FORGE_VERSION} downloaded!")
 
 print("Starting download of mods...")
+failedDownloads = []
 # Download mods (should be the same length as the file ids
 for i, id in enumerate(PROJECT_IDS):
+    time.sleep(1)
     ticker = f"[{i+1}/{len(PROJECT_IDS)}]" # For showing which mod we're on
 
     # Get mod name, so it looks nice
-    data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{id}").content) # Put the request's data into a Python-readable format
-    modName = data["name"]
-
+    try:
+        data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{id}").content) # Put the request's data into a Python-readable format
+        time.sleep(2)
+        modName = data["name"]
+    except json.decoder.JSONDecodeError as e:
+        print(e)
+        continue
     # Get mod's latest version for this game version
     print(f"{ticker} Getting mod download link for mod {modName} (ID: {id})...")
-    data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{id}/files").content)
+    try:
+        data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{id}/files").content)
+    except json.decoder.JSONDecodeError as e :#Some sort of issue occured and the mod cannot be reached.
+        failedDownloads.append(modName)
+        print(f"========================================\n{modName} failed to respond! Noting for later...{e}\n{ticker} Moving on to next element.\n========================================")
+        continue
     # Get the correct version matching the file ID for this mod
     correctVersion = {}
     try:
-        correctVersion = [candidate for candidate in data if FILE_IDS[i] == candidate["id"]][0]
+        correctVersion = [candidate for candidate in data if int(FILE_IDS[i]) == candidate["id"]][0]
         print(f"{ticker} Found correct mod version (File ID: {FILE_IDS[i]} for mod {modName} (ID: {id})!")
     except:
-        print(f"{ticker} Couldn't find a matching file ID ({FILE_IDS[i]}) for mod {modName} (ID: {id}). Downloading latest version for the current forge version...")
-        correctVersion = [candidate for candidate in data if VERSION == candidate["gameVersion"][0]]
-    
-    
-    
+        print(f"========================================\n{ticker} Couldn't find a matching file ID ({FILE_IDS[i]}) for mod {modName} (ID: {id}).\n========================================")
+        failedDownloads.append(modName)
     # Download the mod
     try:
-        if os.path.isfile("mods/" + correctVersion["fileName"]): # Don't redownload mods we may already have downloaded
+        if os.path.isfile(correctVersion["fileName"]): # Don't redownload mods we may already have downloaded
             print(f"{ticker} Mod {modName} (ID: {id}) already downloaded! Skipping.")
         else:
             print(f"{ticker} Starting download of mod {modName} (ID: {id})...")
             download = rq.get(correctVersion["downloadUrl"])
             assert download.status_code == 200 # Make sure we're good
-            with open("mods/" + correctVersion["fileName"], "wb") as f:
+            with open(correctVersion["fileName"], "wb") as f:
                 f.write(download.content)
+            moveToMCDirectory(correctVersion["fileName"])
             print(f"{ticker} Finished downloading mod {modName} (ID: {id})!")
     except: # The fileID isn't available
         print(f"{ticker} [ERROR] Couldn't download mod {modName} (ID: {id})! The mod's fileID contained within the manifest does not exist, and there exists no mod download compatible with your Minecraft version. Please contact the modpack maintainer for more info.\nQuitting.")
         sys.exit()
 
 print(f"Finished downloading all {len(PROJECT_IDS)} mods!")
+print(f"The following mods failed to download completely: {failedDownloads}")
+getDownloadedMods()
