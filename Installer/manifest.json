@@ -1,0 +1,19 @@
+{
+  "minecraft": {
+    "version": "1.18.1",
+    "modLoaders": [
+      {
+        "id": "4",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Meatball Craft",
+  "version": "0.2.0",
+  "author": "Sig",
+  "projectID": 238222,
+  "files": [
+  ]
+}
