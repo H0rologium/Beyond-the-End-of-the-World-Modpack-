@@ -1,0 +1,10 @@
+remove the first and last " in the files : [] key
+After running manifestmaker, find/replace the following:
+
+
+CTRL + SHIFT + R (replace in selection extension) ", " with ,
+\ with 
+/ with 
+
+
+correct any other red line issues
