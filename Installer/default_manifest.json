@@ -1,16 +1,16 @@
 
 { "minecraft": {
-    "version": "1.18.1",
+    "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "39.0.79",
+        "id": "36.2.20",
         "primary": true
       }
     ]
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Meatball Craft",
+  "name": "Beyond the End of the World",
   "version": "0.2.0",
   "author": "Sig",
   "projectID": 238222,
