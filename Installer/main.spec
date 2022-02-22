@@ -6,8 +6,8 @@ block_cipher = None
 
 a = Analysis(['main.py', 'downloader.py', 'filemanagement.py', 'installer.py'],
              pathex=['D:\\git\\Beyond-the-End-of-the-World-Modpack-\\Installer'],
-             binaries=[('bg.png', '.'), ('default_manifest.json', '.')],
-             datas=[],
+             binaries=[],
+             datas=[('bg.png', '.'), ('default_manifest.json', '.')],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
