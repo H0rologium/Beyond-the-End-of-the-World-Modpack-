@@ -1,5 +1,7 @@
 import shutil
 import os
+#This class handles file operations for the installer
+
 
 def message(msg):
     print(msg)
