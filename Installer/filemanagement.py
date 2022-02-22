@@ -7,10 +7,10 @@ def message(msg):
     print(msg)
     return
 
-def moveToMCDirectory(filename):
-    shutil.move(filename, "C:/Users/horo/AppData/Roaming/.minecraft/mods/"+filename)
+def moveToMCDirectory(filename, rootmcpath):
+    shutil.move(f"{os.getcwd()}/{filename}", f"{rootmcpath}/mods/{filename}")
     return
     
-def getDownloadedMods(directory = "C:/Users/horo/AppData/Roaming/.minecraft/mods/"):
-    print(os.listdir(directory))
+def getDownloadedMods(directory):
+    print(os.system(f"dir {directory}/mods"))
     return

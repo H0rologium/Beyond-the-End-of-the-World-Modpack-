@@ -30,7 +30,7 @@ import sys
 from filemanagement import *
 import time
 
-def downloadMods(manifestName="manifest.json"):
+def downloadMods(manifestName="manifest.json",mcdir="none"):
     # Load project IDs and version number
     manifest = ""
     # Make sure the manifest file was given
@@ -93,7 +93,7 @@ def downloadMods(manifestName="manifest.json"):
                 assert download.status_code == 200 # Make sure we're good
                 with open(correctVersion["fileName"], "wb") as f:
                     f.write(download.content)
-                moveToMCDirectory(correctVersion["fileName"])
+                moveToMCDirectory(correctVersion["fileName"],mcdir)
                 print(f"{ticker} Finished downloading mod {modName} (ID: {id})!")
         except: # The fileID isn't available
             print(f"{ticker} [ERROR] Couldn't download mod {modName} (ID: {id})! The mod's fileID contained within the manifest does not exist, and there exists no mod download compatible with your Minecraft version. Please contact the modpack maintainer for more info.\nQuitting.")
@@ -101,5 +101,5 @@ def downloadMods(manifestName="manifest.json"):
 
     print(f"Finished downloading all {len(PROJECT_IDS)} mods!")
     print(f"The following mods failed to download completely: {failedDownloads}")
-    getDownloadedMods()
+    getDownloadedMods(mcdir)
     return
