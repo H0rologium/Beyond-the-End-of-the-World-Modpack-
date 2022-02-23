@@ -58,6 +58,14 @@ Project Red - Illumination
 https://www.curseforge.com/minecraft/mc-mods/project-red-illumination/download/3639377-229046
 Project red - transmission
 https://www.curseforge.com/minecraft/mc-mods/project-red-transmission/download/3639379-478939
+CUSTOM MACHINERY
+https://www.curseforge.com/minecraft/mc-mods/custom-machinery/download/3637689-457017
+Online Detector
+https://www.curseforge.com/minecraft/mc-mods/online-detector/download/3254425-454487
+YouMatter
+https://www.curseforge.com/minecraft/mc-mods/youmatter/download/3299318-361476
+Steve's Quarry
+https://www.curseforge.com/minecraft/mc-mods/steves-quarry/download/3536306-543854
 ----------------------------------------Adventure/Combat Mods-----------------------
 YUNGs Better Mineshafts
 https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge/download/3344719-389665
@@ -136,6 +144,10 @@ Custom Starter Gear
 https://www.curseforge.com/minecraft/mc-mods/custom-starter-gear/download/3434458-253735
 Scaling Health
 https://www.curseforge.com/minecraft/mc-mods/scaling-health/download/3240365-248027
+Autofish
+https://www.curseforge.com/minecraft/mc-mods/autofish/download/3173202-319473
+Anvil Fix
+https://www.curseforge.com/minecraft/mc-mods/anvil-fix/download/3176763-305480
 ----------------------------------------Library Mods---------------------------------
 FTB Teams
 https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/download/3535953-404468
