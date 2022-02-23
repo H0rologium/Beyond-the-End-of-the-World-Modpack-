@@ -94,7 +94,7 @@ def createWindowInstance():
     btn4.pack(padx=10,pady=10)
     btn0 = ttk.Button(lFrame,text = "3. (PRESS ME WHEN PATH IS OK)\nSetup Working Directory", command=lambda: setupWorkingDirectory(mcPath))
     btn0.pack(padx=10,pady=10)
-    btn2 = ttk.Button(lFrame,text = "4. Download Modlist",command=lambda: downloadMods("manifest.json",mcPath))
+    btn2 = ttk.Button(lFrame,text = "4. Download Modlist",command=lambda: downloadMods("manifest.json",mcdirin=mcPath[0].get()))
     btn2.pack(padx=10,pady=10)
     #Right side
     out = Text(rFrame,width=32,wrap='word')

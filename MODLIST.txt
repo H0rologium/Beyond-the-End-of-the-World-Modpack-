@@ -1,8 +1,280 @@
 FORMAT - DOWNLOADURL-PROJECTID
 ----------------------------------------Tech Mods-----------------------------------
+Industrial Foregoing
+https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/download/3446262-266515
+Refined Storage
+https://www.curseforge.com/minecraft/mc-mods/refined-storage/download/3630064-243076
+RS Cable Tiers
+https://www.curseforge.com/minecraft/mc-mods/cable-tiers/download/3601375-454382
+RS Requestify
+https://www.curseforge.com/minecraft/mc-mods/rs-requestify/download/3597580-307788
+RS Cooking for Blockheads Compat
+https://www.curseforge.com/minecraft/mc-mods/refined-cooking/download/3516452-543972
+Create
+https://www.curseforge.com/minecraft/mc-mods/create/download/3536025-328085
+Create Gears
+https://www.curseforge.com/minecraft/mc-mods/create-gears/download/3546202-497867
+Environmental Tech
+https://www.curseforge.com/minecraft/mc-mods/environmental-tech/download/3435566-245453
+Moving Elevators
+https://www.curseforge.com/minecraft/mc-mods/moving-elevators/download/3654442-373051
+Launchpads
+https://www.curseforge.com/minecraft/mc-mods/zihlaunchpads/download/3537222-518305
+More Minecarts and Rails
+https://www.curseforge.com/minecraft/mc-mods/more-minecarts/download/3650530-440845
+Transit Railway
+https://www.curseforge.com/minecraft/mc-mods/minecraft-transit-railway/download/3574707-266707
+Assembly Line Machines
+https://www.curseforge.com/minecraft/mc-mods/assemblylinemachines/download/3493402-388282
+Thermal Expansion
+https://www.curseforge.com/minecraft/mc-mods/thermal-expansion/download/3607549-69163
+Thermal Foundation
+https://www.curseforge.com/minecraft/mc-mods/thermal-foundation/download/3621736-222880
+Thermal Locomotion
+https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion/download/3555670-406959
+Powah!
+https://www.curseforge.com/minecraft/mc-mods/powah/download/3232535-352656
+Mekanism
+https://www.curseforge.com/minecraft/mc-mods/mekanism/download/3590099-268560
+Mekanism Generators
+https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/download/3590101-268566
+PSI
+https://www.curseforge.com/minecraft/mc-mods/psi/download/3493912-241665
+CC NBT Peripheral
+https://www.curseforge.com/minecraft/mc-mods/nbt-peripheral/download/3173929-284477
+Storage for CC
+https://www.curseforge.com/minecraft/mc-mods/storage-for-computercraft/download/3430150-432182
+Advanced Peripherals
+https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals/download/3615760-431725
+CC: Tweaked
+https://www.curseforge.com/minecraft/mc-mods/cc-tweaked/download/3606344-282001
+Refined Pipes 
+https://www.curseforge.com/minecraft/mc-mods/refined-pipes/download/3630290-370696
+Little Logistics
+https://www.curseforge.com/minecraft/mc-mods/little-logistics/download/3649604-570050
+Worm Industries
+https://www.curseforge.com/minecraft/mc-mods/worm-industries/download/3630608-405231
+Project Red - Illumination
+https://www.curseforge.com/minecraft/mc-mods/project-red-illumination/download/3639377-229046
+Project red - transmission
+https://www.curseforge.com/minecraft/mc-mods/project-red-transmission/download/3639379-478939
 ----------------------------------------Adventure/Combat Mods-----------------------
+YUNGs Better Mineshafts
+https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge/download/3344719-389665
+Alex's Mobs
+https://www.curseforge.com/minecraft/mc-mods/alexs-mobs/download/3467280-426558
+Repurposed Structures
+https://www.curseforge.com/minecraft/mc-mods/repurposed-structures/download/3561379-368293
+Upgrade Aquatic
+https://www.curseforge.com/minecraft/mc-mods/upgrade-aquatic/download/3561148-326895
+Enhanced Celestials
+https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials/download/3532022-438447
+Awesome Dungeon
+https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-forge/download/3631189-531320
+Arcaneum
+https://www.curseforge.com/minecraft/mc-mods/the-arcaneum/download/3645721-460474
+Dungeons Plus
+https://www.curseforge.com/minecraft/mc-mods/dungeons-plus/download/3318948-377794
+When Dungeons Arise
+https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise/download/3392240-442508
+Meet your Fight
+https://www.curseforge.com/minecraft/mc-mods/meet-your-fight/download/3536146-409371
+--------------------------------------Decoration/Cosmetic Mods---------------------
+Mr.CF's Furniture
+https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod/download/3346467-55438
+Chisel and bits
+https://www.curseforge.com/minecraft/mc-mods/chisels-bits/download/3593643-231095
+Cosmetic Armor Reworked
+https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked/download/3540310-237307
+Supplimentaries
+https://www.curseforge.com/minecraft/mc-mods/supplementaries/download/3650035-412082
+KleeSlabs
+https://www.curseforge.com/minecraft/mc-mods/kleeslabs/download/3222119-241895
+HWYLA
+https://www.curseforge.com/minecraft/mc-mods/hwyla/download/3033593-253449
+Engineer's Decor
+https://www.curseforge.com/minecraft/mc-mods/engineers-decor/download/3620189-313866
+Gaming Deco
+https://www.curseforge.com/minecraft/mc-mods/gaming-deco/download/3654239-494133
+Theatrical
+https://www.curseforge.com/minecraft/mc-mods/theatrical/download/3279966-315765
+Decoration Blocks
+https://www.curseforge.com/minecraft/mc-mods/decorative-blocks/download/3166283-362528
+Glassential
+https://www.curseforge.com/minecraft/mc-mods/glassential/download/3413072-319194
+Corail Woodcutter
+https://www.curseforge.com/minecraft/mc-mods/corail-woodcutter/download/3481655-331983
+Customizeable Elytra
+https://www.curseforge.com/minecraft/mc-mods/customizable-elytra/download/3541014-440047
 ----------------------------------------Server/Client only mods---------------------
+(Server only) Dynmap 
+(RUNNING THIS ON THE CLIENT WILL CRASH THEM!!!)curseforge.com/minecraft/mc-mods/dynmapforge/download/3637292-59433
+(Client Only) AppleSkin
+https://www.curseforge.com/minecraft/mc-mods/appleskin/download/3626709-248787
+(Client Only) Xaero's Minmap
+https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/download/3647001-263420
+(Client Only) Light Overlay
+https://www.curseforge.com/minecraft/mc-mods/light-overlay/download/3356809-325492
 ----------------------------------------Utility/Backend Mods------------------------
+JEI
+https://www.curseforge.com/minecraft/mc-mods/jei/download/3652153-238222
+Clumps
+https://www.curseforge.com/minecraft/mc-mods/clumps/download/3658432-256717
+FastWorkbench
+https://www.curseforge.com/minecraft/mc-mods/fastworkbench/download/3566919-288885
+FastFurnace
+https://www.curseforge.com/minecraft/mc-mods/fastfurnace/download/3531342-299540
+Attribute Fix
+https://www.curseforge.com/minecraft/mc-mods/attributefix/download/3348562-280510
+Default Options
+https://www.curseforge.com/minecraft/mc-mods/default-options/download/3330403-232131
+Bad Mobs
+https://www.curseforge.com/minecraft/mc-mods/bad-mobs/download/3591403-233258
+NetherPortalFix
+https://www.curseforge.com/minecraft/mc-mods/netherportalfix/download/3098229-241160
+Custom Starter Gear
+https://www.curseforge.com/minecraft/mc-mods/custom-starter-gear/download/3434458-253735
+Scaling Health
+https://www.curseforge.com/minecraft/mc-mods/scaling-health/download/3240365-248027
 ----------------------------------------Library Mods---------------------------------
-----------------------------------------CraftTweaker Stuff--------------------------
+FTB Teams
+https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/download/3535953-404468
+Architectury
+https://www.curseforge.com/minecraft/mc-mods/architectury-forge/download/3652012-419699
+FTB Library
+https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/download/3553840-404465
+KubeJS
+https://www.curseforge.com/minecraft/mc-mods/kubejs-forge/download/3647098-238086
+Project Red - Core
+https://www.curseforge.com/minecraft/mc-mods/project-red-core/download/3639374-228702
+Titanium
+https://www.curseforge.com/minecraft/mc-mods/titanium/download/3346366-287342
+Scorge
+https://www.curseforge.com/minecraft/mc-mods/scorge/download/3276638-471286
+CB Multipart
+https://www.curseforge.com/minecraft/mc-mods/cb-multipart/download/3601708-258426
+COFH Core
+https://www.curseforge.com/minecraft/mc-mods/cofh-core/download/3621734-69162
+SuperMartijn642's Core Lib
+https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/3596490-454372
+SuperMartijn642's Config Lib
+https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/download/3413938-438332
+CodeChickenlib
+https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8/download/3596092-242818
+Caelus API (Forge)
+https://www.curseforge.com/minecraft/mc-mods/caelus/3522094-308989
+Structure Gel API
+https://www.curseforge.com/minecraft/mc-mods/structure-gel-api/download/3498310-378802
+Abnormals Core (Renamed to blueprint in versions 1.17+)
+https://www.curseforge.com/minecraft/mc-mods/blueprint/download/3607198-382216
+Valkyrie Lib
+https://www.curseforge.com/minecraft/mc-mods/valkyrielib/download/3526178-245480
+Lollipop
+https://www.curseforge.com/minecraft/mc-mods/lollipop/download/3232534-347954
+YUNGs API
+https://www.curseforge.com/minecraft/mc-mods/yungs-api/download/3494919-421850
+Rhino
+https://www.curseforge.com/minecraft/mc-mods/rhino/download/3525704-416294
+EnviroCore
+https://www.curseforge.com/minecraft/mc-mods/environmental-core/download/3516780-345795
+Citadel
+https://www.curseforge.com/minecraft/mc-mods/citadel/download/3441028-331936
+ForgeEndertech
+https://www.curseforge.com/minecraft/mc-mods/forgeendertech/download/3529333-244844
+Curios
+https://www.curseforge.com/minecraft/mc-mods/curios/download/3456953-309927
+Silentlib
+https://www.curseforge.com/minecraft/mc-mods/silent-lib/download/3385768-242998
+Placebo
+https://www.curseforge.com/minecraft/mc-mods/placebo/download/3536806-283644
+Selene Lib
+https://www.curseforge.com/minecraft/mc-mods/selene/download/3517008-499980
+Library Ferret
+https://www.curseforge.com/minecraft/mc-mods/library-ferret-forge/download/3597894-532727
+Flywheel
+https://www.curseforge.com/minecraft/mc-mods/flywheel/download/3535459-486392
+Cloth_config
+https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge/download/3641085-348521
+GeckoLib
+https://www.curseforge.com/minecraft/mc-mods/geckolib/download/3629666-388172
+----------------------------------------CraftTweaker-like Stuff--------------------------
+Crafttweaker
+https://www.curseforge.com/minecraft/mc-mods/crafttweaker/download/3657818-239197
+FTB Quests
+https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/download/3575814-289412
+Item Filters
+https://www.curseforge.com/minecraft/mc-mods/item-filters-forge/download/3376819-309674
+CreateTweaker
+https://www.curseforge.com/minecraft/mc-mods/createtweaker/download/3552866-437717
 ----------------------------------------Very Useful Utility/Performance Mods---------
+Morpheus
+https://www.curseforge.com/minecraft/mc-mods/morpheus/download/3215383-69118
+Get it together drops
+https://www.curseforge.com/minecraft/mc-mods/get-it-together-drops/download/3611854-411045
+Quick tpa
+https://www.curseforge.com/minecraft/mc-mods/quickteleports/download/3596950-315037
+Patchouli
+https://www.curseforge.com/minecraft/mc-mods/patchouli/download/3459118-306770
+Performant
+https://www.curseforge.com/minecraft/mc-mods/performant/download/3653199-354143
+Entity Culling (another mod in bookmarks just in case)
+https://www.curseforge.com/minecraft/mc-mods/entityculling/download/3642137-448233
+BetterBiomeBlend
+https://www.curseforge.com/minecraft/mc-mods/better-biome-blend/download/3421281-446253
+Lootr (best mp mod ever) 
+https://www.curseforge.com/minecraft/mc-mods/lootr/download/3647877-361276
+--------------------------------------Equipment Mods---------------------------------
+Elytra
+https://www.curseforge.com/minecraft/mc-mods/curious-elytra/download/3522097-317716
+Recall
+https://www.curseforge.com/minecraft/mc-mods/recall/download/3454193-341210
+Ring of Teleport
+https://www.curseforge.com/minecraft/mc-mods/ring-of-teleport/download/3382000-332545
+Extra Weapons
+https://www.curseforge.com/minecraft/mc-mods/extra-weapons/download/3297199-387153
+BountifulBaubles
+https://www.curseforge.com/minecraft/mc-mods/bountifulbaubles/download/3431126-313536
+Backpacked
+https://www.curseforge.com/minecraft/mc-mods/backpacked/download/3626099-352835
+Scuba Gear
+https://www.curseforge.com/minecraft/mc-mods/scuba-gear/download/3243305-399090
+--------------------------------------Worldgen/Dimension Mods------------------------
+YUNGs Better Caves
+https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves/download/3307879-340583
+Blue Skies
+https://www.curseforge.com/minecraft/mc-mods/blue-skies/download/3411324-312918
+Traverse Reforged
+https://www.curseforge.com/minecraft/mc-mods/traverse-reforged/download/3157857-267769
+Terraforged
+https://www.curseforge.com/minecraft/mc-mods/terraforged/download/3451426-363820
+The Bumblezone
+https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge/download/3537997-362479
+The Outer End
+https://www.curseforge.com/minecraft/mc-mods/the-outer-end/download/3404058-430404
+The Afterlight
+https://www.curseforge.com/minecraft/mc-mods/the-afterlight/download/3646154-499469
+Clay Worldgen
+https://www.curseforge.com/minecraft/mc-mods/clay-worldgen/download/3341905-227276
+Ultra Amplified (modified biome configs for Lost Cities)
+https://www.curseforge.com/minecraft/mc-mods/ultra-amplified-mod/download/3531845-296449
+Panthalassa
+https://www.curseforge.com/minecraft/mc-mods/panthalassa/download/3582688-554120
+LOST CITIES
+https://www.curseforge.com/minecraft/mc-mods/the-lost-cities/download/3606586-269024
+Large Ore Deposits
+https://www.curseforge.com/minecraft/mc-mods/large-ore-deposits/download/3555002-318833
+OreTweaker
+https://www.curseforge.com/minecraft/mc-mods/ore-tweaker/download/3520897-242436
+The Undergarden
+https://www.curseforge.com/minecraft/mc-mods/the-undergarden/download/3477594-379849
+---------------------------------------Other Mods-------------------------------------
+Cooking for Blockheads
+https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads/download/3445172-231484
+Comforts
+https://www.curseforge.com/minecraft/mc-mods/comforts/download/3650609-276951
+OreExcavation
+https://www.curseforge.com/minecraft/mc-mods/ore-excavation/download/3260763-250898
+Reliquiary
+https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3/download/3590975-241319
+Simple Shops
+https://www.curseforge.com/minecraft/mc-mods/simple-shops/download/3505278-517272

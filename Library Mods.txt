@@ -1,55 +1,89 @@
 FORMAT - DOWNLOADURL-PROJECTID
 Scalable Cat's Force
-https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force/download/3634756-320926
+https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force/
 SuperMartijn642's Core Lib
-https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/download/3649270-454372
+https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/
 Placebo
-https://www.curseforge.com/minecraft/mc-mods/placebo/download/3647860-283644
+https://www.curseforge.com/minecraft/mc-mods/placebo/
 CreativeCore
-https://www.curseforge.com/minecraft/mc-mods/creativecore/download/3650213-257814
+https://www.curseforge.com/minecraft/mc-mods/creativecore/
 Caelus API (Forge)
-https://www.curseforge.com/minecraft/mc-mods/caelus/download/3650485-308989
+https://www.curseforge.com/minecraft/mc-mods/caelus/
 SuperMartijn642's Config Lib
-https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/download/3542143-438332
+https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/
 Architectury API (Forge)
-https://www.curseforge.com/minecraft/mc-mods/architectury-forge/download/3652010-419699
+https://www.curseforge.com/minecraft/mc-mods/architectury-forge/
 Structure Spawn Loader
-https://www.curseforge.com/minecraft/mc-mods/structure-spawn-loader/download/3568380-557581
+https://www.curseforge.com/minecraft/mc-mods/structure-spawn-loader/
 No Null Processors
-https://www.curseforge.com/minecraft/mc-mods/no-null-processors/download/3570790-546841
+https://www.curseforge.com/minecraft/mc-mods/no-null-processors/
 McJtyLib
-https://www.curseforge.com/minecraft/mc-mods/mcjtylib/download/3641837-233105
+https://www.curseforge.com/minecraft/mc-mods/mcjtylib/
 Electrodynamics
-https://www.curseforge.com/minecraft/mc-mods/electrodynamics/download/3620519-316867
+https://www.curseforge.com/minecraft/mc-mods/electrodynamics/
 SilentLib
-https://www.curseforge.com/minecraft/mc-mods/silent-lib/download/3543045-242998
+https://www.curseforge.com/minecraft/mc-mods/silent-lib/
 Citadel
-https://www.curseforge.com/minecraft/mc-mods/citadel/download/3642713-331936
+https://www.curseforge.com/minecraft/mc-mods/citadel/
 Collective (Forge)
-https://www.curseforge.com/minecraft/mc-mods/collective/download/3650976-342584
+https://www.curseforge.com/minecraft/mc-mods/collective/
 GeckoLib
-https://www.curseforge.com/minecraft/mc-mods/geckolib/download/3629661-388172
+https://www.curseforge.com/minecraft/mc-mods/geckolib/
 TerraBlender (Forge)
-https://www.curseforge.com/minecraft/mc-mods/terrablender/download/3619749-563928
+https://www.curseforge.com/minecraft/mc-mods/terrablender/
 ThutCore
-https://www.curseforge.com/minecraft/mc-mods/thutcore/download/3607763-224428
+https://www.curseforge.com/minecraft/mc-mods/thutcore/
 AutoRegLib
-https://www.curseforge.com/minecraft/mc-mods/autoreglib/download/3642382-250363
+https://www.curseforge.com/minecraft/mc-mods/autoreglib/
 Feature NBT Deadlock Be Gone
-https://www.curseforge.com/minecraft/mc-mods/feature-nbt-deadlock-be-gone/download/3580119-560323
+https://www.curseforge.com/minecraft/mc-mods/feature-nbt-deadlock-be-gone/
 Many Ideas Core
-https://www.curseforge.com/minecraft/mc-mods/many-ideas-core/download/3563788-433642
+https://www.curseforge.com/minecraft/mc-mods/many-ideas-core/
 Recipes Library
-https://www.curseforge.com/minecraft/mc-mods/recipes-library/download/3563778-398351
+https://www.curseforge.com/minecraft/mc-mods/recipes-library/
 Looot
-https://www.curseforge.com/minecraft/mc-mods/looot/download/3549153-420925
+https://www.curseforge.com/minecraft/mc-mods/looot/
 ForgeEndertech
-https://www.curseforge.com/minecraft/mc-mods/forgeendertech/download/3652053-244844
+https://www.curseforge.com/minecraft/mc-mods/forgeendertech/
 YUNG's API (Forge)
-https://www.curseforge.com/minecraft/mc-mods/yungs-api/download/3652542-421850
+https://www.curseforge.com/minecraft/mc-mods/yungs-api/
 Cucumber Library
-https://www.curseforge.com/minecraft/mc-mods/cucumber/download/3623830-272335
+https://www.curseforge.com/minecraft/mc-mods/cucumber/
 RFTools Base
-https://www.curseforge.com/minecraft/mc-mods/rftools-base/download/3645680-326041
+https://www.curseforge.com/minecraft/mc-mods/rftools-base/
 Library Ferret - Forge
-https://www.curseforge.com/minecraft/mc-mods/library-ferret-forge/download/3597907-532727
+https://www.curseforge.com/minecraft/mc-mods/library-ferret-forge/
+Scorge
+https://www.curseforge.com/minecraft/mc-mods/scorge
+titanium
+https://www.curseforge.com/minecraft/mc-mods/titanium
+CB Multipart
+https://www.curseforge.com/minecraft/mc-mods/cb-multipart
+COFH Core
+https://www.curseforge.com/minecraft/mc-mods/cofh-core
+Structure Gel API
+https://www.curseforge.com/minecraft/mc-mods/structure-gel-api
+Abnormals Core (Renamed to blueprint in versions 1.17+)
+https://www.curseforge.com/minecraft/mc-mods/blueprint
+Valkyrie Lib
+https://www.curseforge.com/minecraft/mc-mods/valkyrielib
+Lollipop
+https://www.curseforge.com/minecraft/mc-mods/lollipop
+YUNGs API
+https://www.curseforge.com/minecraft/mc-mods/yungs-api
+Rhino
+https://www.curseforge.com/minecraft/mc-mods/rhino
+Antimatter API
+https://www.curseforge.com/minecraft/mc-mods/antimatterapi/download
+EnviroCore
+https://www.curseforge.com/minecraft/mc-mods/environmental-core
+Curios
+https://www.curseforge.com/minecraft/mc-mods/curios
+Selene Lib
+https://www.curseforge.com/minecraft/mc-mods/selene
+Flywheel
+https://www.curseforge.com/minecraft/mc-mods/flywheel
+Cloth Config API
+https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge
+Tesseract
+https://www.curseforge.com/minecraft/mc-mods/tesseract

@@ -7,8 +7,8 @@ def message(msg):
     print(msg)
     return
 
-def moveToMCDirectory(filename, rootmcpath):
-    shutil.move(f"{os.getcwd()}/{filename}", f"{rootmcpath}/mods/{filename}")
+def moveToMCDirectory(filename, dirr):
+    shutil.move(f"{os.getcwd()}/{filename}", f"{dirr}/mods/{filename}")
     return
     
 def getDownloadedMods(directory):
