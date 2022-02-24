@@ -64,8 +64,14 @@ Online Detector
 https://www.curseforge.com/minecraft/mc-mods/online-detector/download/3254425-454487
 YouMatter
 https://www.curseforge.com/minecraft/mc-mods/youmatter/download/3299318-361476
-Steve's Quarry
-https://www.curseforge.com/minecraft/mc-mods/steves-quarry/download/3536306-543854
+Enchanted Miners
+https://www.curseforge.com/minecraft/mc-mods/additional-enchanted-miner/download/3607840-282837
+Bigger Reactors
+https://www.curseforge.com/minecraft/mc-mods/biggerreactors/download/3407098-407780
+Modular Routers
+https://www.curseforge.com/minecraft/mc-mods/modular-routers/download/3622942-250294
+RS Infinity Booster
+https://www.curseforge.com/minecraft/mc-mods/rsinfinitybooster/download/3613350-446870
 ----------------------------------------Adventure/Combat Mods-----------------------
 YUNGs Better Mineshafts
 https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge/download/3344719-389665
@@ -114,6 +120,10 @@ Corail Woodcutter
 https://www.curseforge.com/minecraft/mc-mods/corail-woodcutter/download/3481655-331983
 Customizeable Elytra
 https://www.curseforge.com/minecraft/mc-mods/customizable-elytra/download/3541014-440047
+XyCraft
+https://www.curseforge.com/minecraft/mc-mods/zycraft/download/35705570-392055
+'Dustrial Decorations
+https://www.curseforge.com/minecraft/mc-mods/dustrial-decor/download/3548029-401273
 ----------------------------------------Server/Client only mods---------------------
 (Server only) Dynmap 
 (RUNNING THIS ON THE CLIENT WILL CRASH THEM!!!)curseforge.com/minecraft/mc-mods/dynmapforge/download/3637292-59433
@@ -148,6 +158,8 @@ Autofish
 https://www.curseforge.com/minecraft/mc-mods/autofish/download/3173202-319473
 Anvil Fix
 https://www.curseforge.com/minecraft/mc-mods/anvil-fix/download/3176763-305480
+Observable
+https://www.curseforge.com/minecraft/mc-mods/observable/download/3586190-509575
 ----------------------------------------Library Mods---------------------------------
 FTB Teams
 https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/download/3535953-404468
@@ -209,6 +221,8 @@ Cloth_config
 https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge/download/3641085-348521
 GeckoLib
 https://www.curseforge.com/minecraft/mc-mods/geckolib/download/3629666-388172
+SpawnerFix
+https://www.curseforge.com/minecraft/mc-mods/spawner-fix/download/3161147-399022
 ----------------------------------------CraftTweaker-like Stuff--------------------------
 Crafttweaker
 https://www.curseforge.com/minecraft/mc-mods/crafttweaker/download/3657818-239197
@@ -218,6 +232,8 @@ Item Filters
 https://www.curseforge.com/minecraft/mc-mods/item-filters-forge/download/3376819-309674
 CreateTweaker
 https://www.curseforge.com/minecraft/mc-mods/createtweaker/download/3552866-437717
+Structurize
+https://www.curseforge.com/minecraft/mc-mods/structurize/download/3641323-298744
 ----------------------------------------Very Useful Utility/Performance Mods---------
 Morpheus
 https://www.curseforge.com/minecraft/mc-mods/morpheus/download/3215383-69118
@@ -235,6 +251,8 @@ BetterBiomeBlend
 https://www.curseforge.com/minecraft/mc-mods/better-biome-blend/download/3421281-446253
 Lootr (best mp mod ever) 
 https://www.curseforge.com/minecraft/mc-mods/lootr/download/3647877-361276
+FerriteCore
+https://www.curseforge.com/minecraft/mc-mods/ferritecore/download/3485636-429235
 --------------------------------------Equipment Mods---------------------------------
 Elytra
 https://www.curseforge.com/minecraft/mc-mods/curious-elytra/download/3522097-317716
@@ -250,6 +268,12 @@ Backpacked
 https://www.curseforge.com/minecraft/mc-mods/backpacked/download/3626099-352835
 Scuba Gear
 https://www.curseforge.com/minecraft/mc-mods/scuba-gear/download/3243305-399090
+Draconic Evolution
+https://www.curseforge.com/minecraft/mc-mods/draconic-evolution/download/3654625-223565
+Ensorcellation
+https://www.curseforge.com/minecraft/mc-mods/ensorcellation/download/3607544-349447
+Toolbelt
+https://www.curseforge.com/minecraft/mc-mods/tool-belt/download/3258349-260262
 --------------------------------------Worldgen/Dimension Mods------------------------
 YUNGs Better Caves
 https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves/download/3307879-340583
@@ -279,6 +303,12 @@ OreTweaker
 https://www.curseforge.com/minecraft/mc-mods/ore-tweaker/download/3520897-242436
 The Undergarden
 https://www.curseforge.com/minecraft/mc-mods/the-undergarden/download/3477594-379849
+Twilight Forest
+https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/download/3575220-227639
+Dungeon Crawl
+https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl/download/3576775-324973
+Better End
+https://www.curseforge.com/minecraft/mc-mods/betterend-forge-port/download/3467948-428877
 ---------------------------------------Other Mods-------------------------------------
 Cooking for Blockheads
 https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads/download/3445172-231484
@@ -290,3 +320,7 @@ Reliquiary
 https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3/download/3590975-241319
 Simple Shops
 https://www.curseforge.com/minecraft/mc-mods/simple-shops/download/3505278-517272
+Water Strainer
+https://www.curseforge.com/minecraft/mc-mods/water-strainer/download/3073517-246939
+Compressium
+https://www.curseforge.com/minecraft/mc-mods/compressium/download/3428525-342929
