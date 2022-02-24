@@ -151,12 +151,17 @@ def pickMCDir():
     return
 #Shows them how to get Java
 def getJava():
-    results = sub.Popen('java -version', stdout=sub.PIPE, stderr=sub.STDOUT)
-    results = results.stdout.read().decode('utf-8')
-    print(results)
-    if "SE Runtime Environment" in results:
-        print("Java is already installed, you are good to go")
-    else:
+    try:
+        results = sub.Popen('java -version', stdout=sub.PIPE, stderr=sub.STDOUT)
+        results = results.stdout.read().decode('utf-8')
+        print(results)
+        if "SE Runtime Environment" in results:
+            print("Java is already installed, you are good to go")
+        else:
+            print("Nuh-uh, gotta go get that JAVA")
+            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245807_df5ad55fdd604472a86a45a217032c7d", new = 2)
+    except FileNotFoundError:
+        print("Exception reached")
         print("Nuh-uh, gotta go get that JAVA")
         webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245807_df5ad55fdd604472a86a45a217032c7d", new = 2)
     return

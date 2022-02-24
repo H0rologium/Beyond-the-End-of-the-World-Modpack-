@@ -63,24 +63,21 @@ def downloadAllModsbyID(PROJECT_IDS, FILE_IDS, VERSION="none"):
         try:
             correctVersion = [candidate for candidate in data if int(FILE_IDS[i]) == candidate["id"]][0]
             print(f"{ticker} Found correct mod version (File ID: {FILE_IDS[i]} for mod {modName} (ID: {id})!")
+            if os.path.isfile(correctVersion["fileName"]): # Don't redownload mods we may already have downloaded
+                print(f"{ticker} Mod {modName} (ID: {id}) already downloaded! Skipping.")
+                moveToMCDirectory(correctVersion["fileName"],mcdir2)
+            else:
+                print(f"{ticker} Starting download of mod {modName} (ID: {id})...")
+                download = rq.get(correctVersion["downloadUrl"])
+                assert download.status_code == 200 # Make sure we're good
+                with open(correctVersion["fileName"], "wb") as f:
+                    f.write(download.content)
+                moveToMCDirectory(correctVersion["fileName"],mcdir2)
+                print(f"{ticker} Finished downloading mod {modName} (ID: {id})!")
         except:
             print(f"========================================\n{ticker} Couldn't find a matching file ID ({FILE_IDS[i]}) for mod {modName} (ID: {id}).\n========================================")
             failedDownloads.append(modName)
         # Download the mod
-
-        if os.path.isfile(correctVersion["fileName"]): # Don't redownload mods we may already have downloaded
-            print(f"{ticker} Mod {modName} (ID: {id}) already downloaded! Skipping.")
-            moveToMCDirectory(correctVersion["fileName"],mcdir2)
-        else:
-            print(f"{ticker} Starting download of mod {modName} (ID: {id})...")
-            download = rq.get(correctVersion["downloadUrl"])
-            assert download.status_code == 200 # Make sure we're good
-            with open(correctVersion["fileName"], "wb") as f:
-                f.write(download.content)
-            moveToMCDirectory(correctVersion["fileName"],mcdir2)
-            print(f"{ticker} Finished downloading mod {modName} (ID: {id})!")
-
-
     print(f"Finished downloading all {len(PROJECT_IDS)} mods!")
     print(f"The following mods failed to download completely: {failedDownloads}")
     getDownloadedMods(mcdir2)
