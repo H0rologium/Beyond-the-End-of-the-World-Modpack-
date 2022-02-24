@@ -66,8 +66,6 @@ YouMatter
 https://www.curseforge.com/minecraft/mc-mods/youmatter/download/3299318-361476
 Enchanted Miners
 https://www.curseforge.com/minecraft/mc-mods/additional-enchanted-miner/download/3607840-282837
-Bigger Reactors
-https://www.curseforge.com/minecraft/mc-mods/biggerreactors/download/3407098-407780
 Modular Routers
 https://www.curseforge.com/minecraft/mc-mods/modular-routers/download/3622942-250294
 RS Infinity Booster
@@ -121,7 +119,7 @@ https://www.curseforge.com/minecraft/mc-mods/corail-woodcutter/download/3481655-
 Customizeable Elytra
 https://www.curseforge.com/minecraft/mc-mods/customizable-elytra/download/3541014-440047
 XyCraft
-https://www.curseforge.com/minecraft/mc-mods/zycraft/download/35705570-392055
+https://www.curseforge.com/minecraft/mc-mods/zycraft/download/3570557-392055
 'Dustrial Decorations
 https://www.curseforge.com/minecraft/mc-mods/dustrial-decor/download/3548029-401273
 ----------------------------------------Server/Client only mods---------------------
@@ -156,10 +154,6 @@ Scaling Health
 https://www.curseforge.com/minecraft/mc-mods/scaling-health/download/3240365-248027
 Autofish
 https://www.curseforge.com/minecraft/mc-mods/autofish/download/3173202-319473
-Anvil Fix
-https://www.curseforge.com/minecraft/mc-mods/anvil-fix/download/3176763-305480
-Observable
-https://www.curseforge.com/minecraft/mc-mods/observable/download/3586190-509575
 ----------------------------------------Library Mods---------------------------------
 FTB Teams
 https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/download/3535953-404468
@@ -223,6 +217,10 @@ GeckoLib
 https://www.curseforge.com/minecraft/mc-mods/geckolib/download/3629666-388172
 SpawnerFix
 https://www.curseforge.com/minecraft/mc-mods/spawner-fix/download/3161147-399022
+Brandon's Core
+https://www.curseforge.com/minecraft/mc-mods/brandons-core/download/3496725-231382
+Scala library
+https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force/download/3645558-320926
 ----------------------------------------CraftTweaker-like Stuff--------------------------
 Crafttweaker
 https://www.curseforge.com/minecraft/mc-mods/crafttweaker/download/3657818-239197

@@ -32,9 +32,11 @@ import time
 
 global mcdir2
 
+global failedDownloads
 failedDownloads = []
 
 def downloadAllModsbyID(PROJECT_IDS, FILE_IDS, VERSION="none"):
+    global failedDownloads
     global mcdir2
     print("Starting download of mods...")
     # Download mods (should be the same length as the file ids
@@ -76,19 +78,28 @@ def downloadAllModsbyID(PROJECT_IDS, FILE_IDS, VERSION="none"):
                 print(f"{ticker} Finished downloading mod {modName} (ID: {id})!")
         except:
             print(f"========================================\n{ticker} Couldn't find a matching file ID ({FILE_IDS[i]}) for mod {modName} (ID: {id}).\n========================================")
-            failedDownloads.append(modName)
+            failedDownloads.append((modName,id,FILE_IDS[i]))
         # Download the mod
     print(f"Finished downloading all {len(PROJECT_IDS)} mods!")
     print(f"The following mods failed to download completely: {failedDownloads}")
-    getDownloadedMods(mcdir2)
+    #getDownloadedMods(mcdir2)
+    retryFailedDownloads()
 
 def retryFailedDownloads():
+    global failedDownloads
     for failedmod in failedDownloads:
-        downloadAllModsbyID(failedmod[1],failedmod[2])
-    if len(failedDownloads) <= 0:
-        return
-    else:
-        retryFailedDownloads()
+        print(f"Rectifying failed download {failedmod[0]}")
+        data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{failedmod[1]}/files/{failedmod[2]}").content)
+        datasub = [x for x in data if int(failedmod[2]) == x["id"]][0]["downloadUrl"]
+        fname = [y for y in data if int(failedmod[2]) == y["id"]][0]["fileName"]
+        print("Attempting re-download")
+        attempt = rq.get(datasub)
+        assert attempt.status_code == 200 # Make sure we're good
+        with open(fname, "wb") as f:
+            f.write(attempt.content)
+        moveToMCDirectory(fname,mcdir2)
+        print(f"Finished downloading mod {fname} (ID: {failedmod[2]})!")
+    return
 
 
 def downloadMods(manifestName="manifest.json",mcdirin="none_provided"):
