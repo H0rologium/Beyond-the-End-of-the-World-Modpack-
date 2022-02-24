@@ -1,0 +1,17 @@
+Notes for dev, don't worry
+
+youmatter-common.toml (material filter)
+citadel-common.toml (performance setting toggled)
+xreliquary-common.toml (no guns)
+twilightforest-common.toml (dimension change)
+bountifulbaubles-common.toml (changes)
+assemblylinemachines-common.toml (material filter)
+alexsmobs.toml (mod-specific mob spawning settings)
+waterstrainer/waterstrainer_loottables.txt (loot tables)
+terraforged/general.conf (worldgen settings)
+scaling-health/game_settings.toml (health/damage scaling)
+powah/general_common.toml (material filters)
+
+oretweaker/data (active modifiers)
+	bye_copper.json (only generate one copper type in the game). 
+(https://github.com/EwyBoy/OreTweaker/wiki/Disabling-Ore-Generation)

@@ -1,0 +1,4 @@
+ZenScript scrips to use in CraftTweaker.
+All of these scripts are made by Horologium for the modpack
+"Beyond the End of the World"
+You are welcome to use these scripts but I'd really appreciate a referral back to this source.
