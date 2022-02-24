@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "d23890162ab84800a2bbb4cac40490ef"
+	name: "horolog1um"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

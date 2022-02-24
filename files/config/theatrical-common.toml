@@ -1,0 +1,7 @@
+
+[fixtures]
+	#Set this to false to prevent lights emitting actual light
+	emitLight = true
+	#Set this to false to prevent moving lights consuming power
+	consumePower = true
+
