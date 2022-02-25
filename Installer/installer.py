@@ -16,23 +16,23 @@ def setupWorkingDirectory(rootMCPath):
     print("[CONFIGS] Moving configs")
     for configs in os.listdir(f"{os.getcwd()}\\files\\config"):
         print(f"Moving {configs}")
-        shoot.move(f"{os.getcwd()}/files//config/{configs}",str(os.path.join(rootMCPath[1],f"/config/{configs}")))
+        shoot.move(f"{os.getcwd()}/files//config/{configs}",f"{rootMCPath[1]}/config/{configs}")
     #defaultconfigs
     os.system(f"mkdir {rootMCPath}/defaultconfigs")
     print("[CONFIGS] Moving defaultconfigs")
     for defaultconfigs in os.listdir("defaultconfigs"):
         print(f"Moving {defaultconfigs}")
-        shoot.move(f"{os.getcwd()}/defaultconfigs/{defaultconfigs}",f"{rootMCPath}/defaultconfigs/{defaultconfigs}")
+        shoot.move(f"{os.getcwd()}/defaultconfigs/{defaultconfigs}",f"{rootMCPath[1]}/defaultconfigs/{defaultconfigs}")
     #dynmap
     os.system(f"mkdir {rootMCPath}/dynmap")
     for maps in os.listdir("dynmap"):
         print(f"[MAPS] Moving {maps}")
-        shoot.move(f"{os.getcwd()}/dynmap/{maps}",f"{rootMCPath}/dynmap/{maps}")
+        shoot.move(f"{os.getcwd()}/dynmap/{maps}",f"{rootMCPath[1]}/dynmap/{maps}")
     #scripts
     os.system(f"mkdir {rootMCPath}/scripts")
     #apply options.txt
     print(f"[GENERAL] Moving options.txt") 
-    shoot.move(f"{os.getcwd()}/options.txt",f"{rootMCPath}/options.txt")
+    shoot.move(f"{os.getcwd()}/options.txt",f"{rootMCPath[1]}/options.txt")
     print("====Directory setup complete====")
     os.system(f"ren {rootMCPath}/mods {rootMCPath}/mods_old")
     os.system(f"mkdir {rootMCPath}/mods")
