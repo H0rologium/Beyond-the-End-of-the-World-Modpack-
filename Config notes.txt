@@ -15,3 +15,7 @@ powah/general_common.toml (material filters)
 oretweaker/data (active modifiers)
 	bye_copper.json (only generate one copper type in the game). 
 (https://github.com/EwyBoy/OreTweaker/wiki/Disabling-Ore-Generation)
+
+
+
+CF page 95

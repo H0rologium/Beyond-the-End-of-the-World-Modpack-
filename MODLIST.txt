@@ -71,6 +71,8 @@ https://www.curseforge.com/minecraft/mc-mods/modular-routers/download/3622942-25
 RS Infinity Booster
 https://www.curseforge.com/minecraft/mc-mods/rsinfinitybooster/download/3613350-446870
 ----------------------------------------Adventure/Combat Mods-----------------------
+Advent of Ascension
+https://www.curseforge.com/minecraft/mc-mods/advent-of-ascension-nevermine/download/3378340-311054
 YUNGs Better Mineshafts
 https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge/download/3344719-389665
 Alex's Mobs
@@ -93,6 +95,12 @@ Meet your Fight
 https://www.curseforge.com/minecraft/mc-mods/meet-your-fight/download/3536146-409371
 Nature's Compass
 https://www.curseforge.com/minecraft/mc-mods/natures-compass/download/3382150-252848
+Mutant Beasts
+https://www.curseforge.com/minecraft/mc-mods/mutant-beasts/download/3131604-336272
+Callable Horses
+https://www.curseforge.com/minecraft/mc-mods/callable-horses/download/3090832-331746
+Mutant More
+https://www.curseforge.com/minecraft/mc-mods/mutant-more/download/3504386-539994
 --------------------------------------Decoration/Cosmetic Mods---------------------
 Mr.CF's Furniture
 https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod/download/3346467-55438
@@ -156,6 +164,10 @@ Scaling Health
 https://www.curseforge.com/minecraft/mc-mods/scaling-health/download/3240365-248027
 Autofish
 https://www.curseforge.com/minecraft/mc-mods/autofish/download/3173202-319473
+Global Gamerules
+https://www.curseforge.com/minecraft/mc-mods/global-gamerules/download/3378657-227657
+Paxi (Global Data/Resource Packs)
+https://www.curseforge.com/minecraft/mc-mods/paxi/download/3426545-515708
 ----------------------------------------Library Mods---------------------------------
 FTB Teams
 https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/download/3535953-404468
@@ -253,6 +265,8 @@ Lootr (best mp mod ever)
 https://www.curseforge.com/minecraft/mc-mods/lootr/download/3647877-361276
 FerriteCore
 https://www.curseforge.com/minecraft/mc-mods/ferritecore/download/3485636-429235
+Magnesium (Performance)
+https://www.curseforge.com/minecraft/mc-mods/sodium-reforged/download/3526076-532724
 --------------------------------------Equipment Mods---------------------------------
 Elytra
 https://www.curseforge.com/minecraft/mc-mods/curious-elytra/download/3522097-317716
@@ -274,6 +288,10 @@ Ensorcellation
 https://www.curseforge.com/minecraft/mc-mods/ensorcellation/download/3607544-349447
 Toolbelt
 https://www.curseforge.com/minecraft/mc-mods/tool-belt/download/3258349-260262
+Advanced Netherite
+https://www.curseforge.com/minecraft/mc-mods/advanced-netherite/download/3598306-495336
+Wooden Shears
+https://www.curseforge.com/minecraft/mc-mods/wooden-shears/download/3411991-443192
 --------------------------------------Worldgen/Dimension Mods------------------------
 YUNGs Better Caves
 https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves/download/3307879-340583
