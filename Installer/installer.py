@@ -7,16 +7,16 @@ import os
 def setupWorkingDirectory(rootMCPath):
     print("Setting up directory")
     #Step into the files directory
-    os.chdir(f"{os.getcwd()}/files")
+    #os.chdir(f"{os.getcwd()}\\files")
     #Copy everything over to .minecraft
     #rootMCPath will end us just inside the folder, so work from there
 
     #configs
-    os.system(f"mkdir {rootMCPath}/config")
+    os.system(f"mkdir {rootMCPath}\\config")
     print("[CONFIGS] Moving configs")
-    for configs in os.listdir("config"):
+    for configs in os.listdir(f"{os.getcwd()}\\files\\config"):
         print(f"Moving {configs}")
-        shoot.move(f"{os.getcwd()}/config/{configs}",f"{rootMCPath}/config/{configs}")
+        shoot.move(f"{os.getcwd()}/files//config/{configs}",str(os.path.join(rootMCPath[1],f"/config/{configs}")))
     #defaultconfigs
     os.system(f"mkdir {rootMCPath}/defaultconfigs")
     print("[CONFIGS] Moving defaultconfigs")
