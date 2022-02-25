@@ -232,7 +232,7 @@ https://www.curseforge.com/minecraft/mc-mods/geckolib/download/3629666-388172
 SpawnerFix
 https://www.curseforge.com/minecraft/mc-mods/spawner-fix/download/3161147-399022
 Brandon's Core
-https://www.curseforge.com/minecraft/mc-mods/brandons-core/download/3496725-231382
+https://www.curseforge.com/minecraft/mc-mods/brandons-core/download/3654617-231382
 Scala library
 https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force/download/3645558-320926
 ----------------------------------------CraftTweaker-like Stuff--------------------------
@@ -265,8 +265,6 @@ Lootr (best mp mod ever)
 https://www.curseforge.com/minecraft/mc-mods/lootr/download/3647877-361276
 FerriteCore
 https://www.curseforge.com/minecraft/mc-mods/ferritecore/download/3485636-429235
-Magnesium (Performance)
-https://www.curseforge.com/minecraft/mc-mods/sodium-reforged/download/3526076-532724
 --------------------------------------Equipment Mods---------------------------------
 Elytra
 https://www.curseforge.com/minecraft/mc-mods/curious-elytra/download/3522097-317716
@@ -292,6 +290,8 @@ Advanced Netherite
 https://www.curseforge.com/minecraft/mc-mods/advanced-netherite/download/3598306-495336
 Wooden Shears
 https://www.curseforge.com/minecraft/mc-mods/wooden-shears/download/3411991-443192
+Hole Filler
+https://www.curseforge.com/minecraft/mc-mods/hole-filler-mod/download/3362158-440585
 --------------------------------------Worldgen/Dimension Mods------------------------
 YUNGs Better Caves
 https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves/download/3307879-340583

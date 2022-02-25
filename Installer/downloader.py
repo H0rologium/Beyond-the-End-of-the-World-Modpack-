@@ -29,6 +29,12 @@ import json
 import sys
 from filemanagement import *
 import time
+import webbrowser
+
+# !IMPORTANT!
+# some of the API calls are being made without verifying SSL certificates
+# this was originally for testing purposes. PLEASE if you're going to use
+# this TURN THEM BACK ON
 
 global mcdir2
 
@@ -46,7 +52,7 @@ def downloadAllModsbyID(PROJECT_IDS, FILE_IDS, VERSION="none"):
 
         # Get mod name, so it looks nice
         try:
-            data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{id}").content) # Put the request's data into a Python-readable format
+            data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{id}", verify=False).content) # Put the request's data into a Python-readable format
             time.sleep(1)
             modName = data["name"]
         except json.decoder.JSONDecodeError as e:
@@ -55,7 +61,7 @@ def downloadAllModsbyID(PROJECT_IDS, FILE_IDS, VERSION="none"):
         # Get mod's latest version for this game version
         print(f"{ticker} Getting mod download link for mod {modName} (ID: {id})...")
         try:
-            data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{id}/files").content)
+            data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{id}/files", verify=False).content)
         except json.decoder.JSONDecodeError as e :#Some sort of issue occured and the mod cannot be reached.
             failedDownloads.append((modName,id,FILE_IDS[i]))
             print(f"========================================\n{modName} failed to respond! Noting for later...{e}\n{ticker} Moving on to next element.\n========================================")
@@ -70,7 +76,7 @@ def downloadAllModsbyID(PROJECT_IDS, FILE_IDS, VERSION="none"):
                 moveToMCDirectory(correctVersion["fileName"],mcdir2)
             else:
                 print(f"{ticker} Starting download of mod {modName} (ID: {id})...")
-                download = rq.get(correctVersion["downloadUrl"])
+                download = rq.get(correctVersion["downloadUrl"], verify=False)
                 assert download.status_code == 200 # Make sure we're good
                 with open(correctVersion["fileName"], "wb") as f:
                     f.write(download.content)
@@ -89,12 +95,16 @@ def retryFailedDownloads():
     global failedDownloads
     for failedmod in failedDownloads:
         print(f"Rectifying failed download {failedmod[0]}")
-        data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{failedmod[1]}/files/{failedmod[2]}").content)
-        datasub = [x for x in data if int(failedmod[2]) == x["id"]][0]["downloadUrl"]
-        fname = [y for y in data if int(failedmod[2]) == y["id"]][0]["fileName"]
-        print("Attempting re-download")
-        attempt = rq.get(datasub)
-        assert attempt.status_code == 200 # Make sure we're good
+        try:
+            data = json.loads(rq.get(f"https://curse.nikky.moe/api/addon/{failedmod[1]}/files/{failedmod[2]}", verify=False).content)
+            datasub = [x for x in data if int(failedmod[2]) == x["id"]][0]["downloadUrl"]
+            fname = [y for y in data if int(failedmod[2]) == y["id"]][0]["fileName"]
+            print("Attempting re-download")
+            attempt = rq.get(datasub, verify=False)
+            assert attempt.status_code == 200 # Make sure we're good
+        except json.decoder.JSONDecodeError as e :#Some sort of issue occured and the mod cannot be reached.
+            print("Nobody can save you now, you need to directly download the mod!")
+            webbrowser.open(f"https://curse.nikky.moe/api/addon/{failedmod[1]}/files/{failedmod[2]}", new = 2)
         with open(fname, "wb") as f:
             f.write(attempt.content)
         moveToMCDirectory(fname,mcdir2)
