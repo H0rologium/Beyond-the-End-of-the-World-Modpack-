@@ -1,0 +1,111 @@
+{
+	id: "1CE30F135DE20CD4"
+	group: ""
+	order_index: 0
+	filename: "the_world_ended_now_what"
+	title: "The World Ended, Now What?"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Regaining Consciousness"
+			x: 0.0d
+			y: 0.0d
+			description: ["What is done, is done. It is up to you to continue our legacy. Remember what was forgotten, create what once made. Kill all that took our lives."]
+			id: "14861CA40F5637EC"
+			tasks: [{
+				id: "624C4747BDEA194C"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "71C8FBF945A06806"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "rsquare"
+			description: ["What few sources of magic left us in the cataclysm. Many like you had the luxury of having their own totems to save themselves. Others turned into the undead you see wandering this place."]
+			dependencies: ["14861CA40F5637EC"]
+			hide: true
+			id: "04C133E38DFAA31A"
+			tasks: [{
+				id: "0431D9D76BEA36B8"
+				type: "advancement"
+				title: "They were once like you"
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0B7F67B61A37F95F"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45EAF59B392887E3"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A7C9FAD63163087"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BD7004D0E649DE6"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Forgotten favors"
+			icon: "aoa3:copper_coin"
+			x: 2.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["It would no longer make sense to you if it were explained. But, with your resourcefulness these coins can be forged into more useful ingots."]
+			dependencies: ["14861CA40F5637EC"]
+			hide: true
+			id: "718936B9C24002C9"
+			tasks: [{
+				id: "00F705209775C4D5"
+				type: "item"
+				item: "aoa3:copper_coin"
+			}]
+			rewards: [{
+				id: "3B8C057102363084"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+}

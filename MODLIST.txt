@@ -144,6 +144,8 @@ https://www.curseforge.com/minecraft/mc-mods/light-overlay/download/3356809-3254
 ----------------------------------------Utility/Backend Mods------------------------
 JEI
 https://www.curseforge.com/minecraft/mc-mods/jei/download/3652153-238222
+JEI Tweaker
+https://www.curseforge.com/minecraft/mc-mods/jeitweaker/download/3566804-368718
 Clumps
 https://www.curseforge.com/minecraft/mc-mods/clumps/download/3658432-256717
 FastWorkbench
