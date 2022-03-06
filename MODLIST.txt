@@ -170,6 +170,8 @@ Global Gamerules
 https://www.curseforge.com/minecraft/mc-mods/global-gamerules/download/3378657-227657
 Paxi (Global Data/Resource Packs)
 https://www.curseforge.com/minecraft/mc-mods/paxi/download/3426545-515708
+OPEN LOADER
+https://www.curseforge.com/minecraft/mc-mods/open-loader/download/3199872-354339
 ----------------------------------------Library Mods---------------------------------
 FTB Teams
 https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/download/3535953-404468
