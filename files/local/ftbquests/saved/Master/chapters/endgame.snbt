@@ -1,0 +1,25 @@
+{
+	id: "085BA9AD0F24BCC2"
+	group: ""
+	order_index: 2
+	filename: "endgame"
+	title: "Endgame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		description: ["Because U matter, that's why. Have fun duplicating everyting"]
+		id: "79E5FA169795484B"
+		tasks: [{
+			id: "21966EA0F817CFC7"
+			type: "item"
+			item: "youmatter:creator"
+		}]
+		rewards: [{
+			id: "48E3ED93E1C7CDED"
+			type: "xp_levels"
+			xp_levels: 100
+		}]
+	}]
+}

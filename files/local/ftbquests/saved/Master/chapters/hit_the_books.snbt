@@ -1,0 +1,205 @@
+{
+	id: "014F74BCDD65EEC6"
+	group: ""
+	order_index: 0
+	filename: "hit_the_books"
+	title: "Hit the Books"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: -2.5d
+			description: ["To understand those strange prehistoric creatures"]
+			id: "1709403760883A7C"
+			tasks: [{
+				id: "326FCAD1C04D94BD"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "panthalassa:journal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "24B2C784C1EEA66A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			description: ["To better understand how to route items, logistically, of course."]
+			id: "40B12AD00CF33B75"
+			tasks: [{
+				id: "5A0B7A6E02D14E36"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "littlelogistics:guide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "554C04D83444D48C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: ["To understand how you can achieve Powah!"]
+			id: "5E8FF2393131D3D4"
+			tasks: [{
+				id: "77949BA8FDA2C622"
+				type: "item"
+				item: "powah:book"
+			}]
+			rewards: [{
+				id: "5ADF075A10A1D744"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: ["When the router is modular"]
+			id: "0DBB1136DF834482"
+			tasks: [{
+				id: "4944A37356C5894E"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "modularrouters:book"
+					}
+				}
+			}]
+			rewards: [{
+				id: "553126A97EB8A520"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			description: ["For industrial foregoing content."]
+			id: "50AB9D53B6A79A99"
+			tasks: [{
+				id: "2B6038794AFBBAA1"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}]
+			rewards: [{
+				id: "58BA24FAEF4F1778"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			description: ["Yes the sink is default..."]
+			id: "4150C6BBCE32D276"
+			tasks: [
+				{
+					id: "41BEECDD0E305B1C"
+					type: "item"
+					item: "cookingforblockheads:recipe_book"
+				}
+				{
+					id: "6BF70E1DC18322FE"
+					type: "item"
+					item: "cookingforblockheads:crafting_book"
+				}
+				{
+					id: "43AE51089EE23377"
+					type: "item"
+					item: "cookingforblockheads:no_filter_edition"
+				}
+			]
+			rewards: [{
+				id: "69DD1DD3E7315DE6"
+				type: "item"
+				item: "minecraft:bread"
+				count: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			description: ["Wouldn't it just be called \"dark\"? nevermind"]
+			id: "102C270DE2262E08"
+			tasks: [{
+				id: "170B7785689AD1A0"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "the_afterlight:afterlight_tome"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0600D98CCB2BE5E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			description: ["You've already been there, haven't you...."]
+			id: "6E979E077D1D1A26"
+			tasks: [{
+				id: "65CD949CEAEAB465"
+				type: "item"
+				item: "betterendforge:guidebook"
+			}]
+			rewards: [{
+				id: "772CA2ABA64B1FC0"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 13
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			description: ["For warm and fuzzy feelings"]
+			id: "43C884C9F289603A"
+			tasks: [{
+				id: "4564FCF84EF88069"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1550BD0CAB288C98"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+}

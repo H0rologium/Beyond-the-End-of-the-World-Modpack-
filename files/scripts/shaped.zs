@@ -13,3 +13,7 @@ craftingTable.addShaped("glassblock-new", <item:minecraft:glass>,[[<item:minecra
 
 #Anvil alt
 craftingTable.addShaped("anvil-iron-alt",<item:minecraft:damaged_anvil>,[[dict_ironblock.asIIngredient(),dict_ironblock.asIIngredient(),dict_ironblock.asIIngredient()],[<item:minecraft:air>,dict_ironingot.asIIngredient(),<item:minecraft:air>],[dict_ironingot.asIIngredient(),dict_ironingot.asIIngredient(),dict_ironingot.asIIngredient()]]);
+
+#Book alt
+craftingTable.addShaped("book-alt",<item:minecraft:book>,[[<item:minecraft:leather>,<item:minecraft:paper>,<item:minecraft:paper>],[<item:minecraft:leather>,<item:minecraft:paper>,<item:minecraft:paper>],[<item:minecraft:leather>,<item:minecraft:paper>,<item:minecraft:paper>]]);
+

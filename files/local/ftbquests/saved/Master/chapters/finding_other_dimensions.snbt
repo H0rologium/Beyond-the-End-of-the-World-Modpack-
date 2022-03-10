@@ -1,0 +1,414 @@
+{
+	id: "0BD41BD1A4FD7738"
+	group: ""
+	order_index: 1
+	filename: "finding_other_dimensions"
+	title: "Finding Other Dimensions"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Visit the Overworld"
+			x: 0.0d
+			y: 0.0d
+			description: ["You loaded into the game, here's your participation award."]
+			id: "706E88E46097BE8C"
+			tasks: [
+				{
+					id: "7CE41D11775B8C0D"
+					type: "dimension"
+					icon: "minecraft:grass_block"
+					dimension: "minecraft:overworld"
+				}
+				{
+					id: "3B3BE8189ED66031"
+					type: "checkmark"
+					title: "Free Gains"
+				}
+			]
+			rewards: [{
+				id: "4FC707B26942B964"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+		}
+		{
+			title: "Visit the Nether"
+			icon: "minecraft:nether_gold_ore"
+			x: 0.0d
+			y: 2.0d
+			description: ["Spicy!"]
+			dependencies: ["11627EAE079B3198"]
+			id: "45CCABF06A03D284"
+			tasks: [{
+				id: "620D947D4991AAC6"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "32B33890BD3A2660"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["Kachink!"]
+			dependencies: ["706E88E46097BE8C"]
+			id: "11627EAE079B3198"
+			tasks: [{
+				id: "7B160AFCFF27426B"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "265A562DCA3AF934"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "One Step Closer"
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["706E88E46097BE8C"]
+			id: "634B5E5D38C7877F"
+			tasks: [{
+				id: "662ABB37D30FE39D"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+			rewards: [{
+				id: "796C4399F61E45C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["634B5E5D38C7877F"]
+			id: "41DAD24E361D8B8F"
+			tasks: [{
+				id: "11A0F913CAC6E848"
+				type: "advancement"
+				title: "At the Verge"
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "29CBEF17ED08D321"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "In The End, Does it Even Matter?"
+			x: 3.0d
+			y: 0.0d
+			description: ["Congrats, you almost have beaten vanilla, in a sense"]
+			dependencies: ["41DAD24E361D8B8F"]
+			id: "28A456207193C9D3"
+			tasks: [{
+				id: "34B0B68A28DED782"
+				type: "dimension"
+				icon: "minecraft:chiseled_sandstone"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "5E39A21E97621F00"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["Find a trader willing to sell this. It even explains itself"]
+			dependencies: ["706E88E46097BE8C"]
+			id: "5EF2C8E7BBD67EF5"
+			tasks: [{
+				id: "616AF07E491034E8"
+				type: "item"
+				item: "blue_skies:blue_journal"
+			}]
+			rewards: [{
+				id: "377FD5BA35B48385"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Visit the everdawn"
+			icon: "blue_skies:bluebright_sapling"
+			x: -2.0d
+			y: -0.5d
+			description: ["Stunning!"]
+			dependencies: ["5EF2C8E7BBD67EF5"]
+			id: "4BAAA2C717475D9D"
+			tasks: [{
+				id: "2021FD3CE68C55C6"
+				type: "dimension"
+				icon: "blue_skies:bluebright_sapling"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [{
+				id: "69D5827E46897D90"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Visit the Everbright"
+			x: -2.0d
+			y: 0.5d
+			description: ["Remember to bring sunglasses"]
+			dependencies: ["5EF2C8E7BBD67EF5"]
+			id: "13320C7253FC6356"
+			tasks: [{
+				id: "706BC4085704A80B"
+				type: "dimension"
+				icon: "blue_skies:star_flare"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [{
+				id: "03FF595829472667"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			subtitle: "(panthalassa content)"
+			description: ["...they will all see you they will all eat you, under the sea!"]
+			id: "10C69A8791B788A4"
+			tasks: [{
+				id: "11BA500BBF2F6893"
+				type: "dimension"
+				title: "Under The Sea"
+				icon: "panthalassa:panthalassa_portal"
+				dimension: "panthalassa:panthalassa"
+			}]
+			rewards: [{
+				id: "02D3CB009A74DD68"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: "the_bumblezone:beehemoth_spawn_egg"
+			x: 0.0d
+			y: -1.0d
+			description: ["I wonder if...."]
+			dependencies: ["706E88E46097BE8C"]
+			id: "4AF5A29FA4BAD7C0"
+			tasks: [
+				{
+					id: "1CD9A27761B66AD8"
+					type: "dimension"
+					title: "Visit the Bumblezone"
+					icon: "minecraft:bee_nest"
+					dimension: "the_bumblezone:the_bumblezone"
+				}
+				{
+					id: "1E340DB1FBD83C35"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			title: "Surely Not"
+			x: 1.0d
+			y: 1.0d
+			description: ["Surely not making a 4x4 dirt ring, filling the middle in with water placing flowers on each dirt block and chucking a diamond in the the water would DO anything, right?"]
+			dependencies: ["706E88E46097BE8C"]
+			id: "43FEC0A9DE9C569D"
+			tasks: [{
+				id: "30D27B41DD749B2E"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "6D89C4725F79C5CB"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+		}
+		{
+			title: "Visit the Twilight Forest"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["43FEC0A9DE9C569D"]
+			id: "7175A6B01BE2E354"
+			tasks: [{
+				id: "520F7512616BC398"
+				type: "dimension"
+				title: "Twilight Forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [{
+				id: "418DF4D595871DFE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Even Crazier Idea...."
+			x: 2.5d
+			y: 1.0d
+			description: ["..now hear me out. Nether portal, but STONE blocks! Throw this new thingy-ma-bob on there, maybe something will happen..."]
+			dependencies: ["43FEC0A9DE9C569D"]
+			id: "0C30633AA08B48EA"
+			tasks: [{
+				id: "2882AD11824EF7FC"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+			rewards: [{
+				id: "5B2B0A1393C7C12C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			description: ["Rock and Stone to the heart!"]
+			dependencies: ["0C30633AA08B48EA"]
+			id: "173CAFF198B79300"
+			tasks: [{
+				id: "02392484FE12DC90"
+				type: "dimension"
+				title: "Visit the Undergarden"
+				icon: "undergarden:deepturf_block"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [{
+				id: "6D4B3D725B751634"
+				type: "item"
+				item: "minecraft:torch"
+				count: 11
+			}]
+		}
+		{
+			title: "Confusing Enough?"
+			x: -1.5d
+			y: 2.0d
+			description: [
+				"Who knows what \"inspired\" this process, but in order to visit this dimension, refer to this image. You will need to interact with the center block using a flint \\& steel."
+				"{image:minecraft:textures/hellothere.png width:200 height:100 align:1}"
+			]
+			dependencies: ["11627EAE079B3198"]
+			id: "2084E46BE81CA08F"
+			tasks: [{
+				id: "2C7E73DD3F528B9F"
+				type: "dimension"
+				icon: "minecraft:mossy_cobblestone_stairs"
+				dimension: "ultra_amplified_dimension:ultra_amplified_dimension"
+			}]
+			rewards: [{
+				id: "1AFFD07031C25053"
+				type: "item"
+				item: "minecraft:feather"
+			}]
+		}
+		{
+			title: "Piecing Everything Back Together"
+			x: 2.5d
+			y: -2.5d
+			description: ["Only through adventure can we unfold the advent of ascension. Pressing 'use' while holding a blank runestone will guide your path. For more information visit https://adventofascension.fandom.com/wiki/Ancient_Teleportation"]
+			dependencies: ["706E88E46097BE8C"]
+			id: "6CDB0E89A7B89486"
+			tasks: [
+				{
+					id: "5E7ACC1AB07525E8"
+					type: "item"
+					title: "Find the Carved Rune of Direction"
+					item: "aoa3:carved_rune_of_direction"
+				}
+				{
+					id: "7C7088AD565367F2"
+					type: "item"
+					title: "Craft the Carved Rune of Power"
+					item: "aoa3:carved_rune_of_power"
+				}
+				{
+					id: "493A70256C36D211"
+					type: "item"
+					title: "Find the Carved Rune of Reality"
+					item: "aoa3:carved_rune_of_reality"
+				}
+				{
+					id: "7A8FA62341FC4C89"
+					type: "item"
+					title: "Find the Carved Rune of Space"
+					item: "aoa3:carved_rune_of_space"
+				}
+				{
+					id: "6CBFBE8621EC84AC"
+					type: "item"
+					title: "Find the Carved Rune of Travel"
+					item: "aoa3:carved_rune_of_travel"
+				}
+				{
+					id: "5CA4B40871D7F59A"
+					type: "structure"
+					title: "Find the buried frames of old"
+					icon: "aoa3:ancient_rock"
+					structure: "aoa3:ruined_teleporter_frame"
+				}
+			]
+			rewards: [{
+				id: "178ECFC49363A258"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Visit Detroit"
+			icon: "dustrial_decor:industrial_iron_door"
+			x: -1.5d
+			y: -2.0d
+			description: ["You'll need these to get back. The correct way to form the portal is to place a bed on two diamond blocks, then surround it with 6 skulls."]
+			dependencies: ["706E88E46097BE8C"]
+			id: "6A8CE98FBAE1D6AF"
+			tasks: [{
+				id: "14E54A77C9CEBCF8"
+				type: "dimension"
+				title: "The Lost Cities"
+				icon: "minecraft:cake"
+				dimension: "lostcities:lostcity"
+			}]
+			rewards: [
+				{
+					id: "2EF60244DBA51F65"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 2
+				}
+				{
+					id: "1DE217F6BAD990C1"
+					type: "item"
+					item: "minecraft:white_bed"
+				}
+				{
+					id: "626381E032446FFC"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 6
+				}
+			]
+		}
+	]
+}
