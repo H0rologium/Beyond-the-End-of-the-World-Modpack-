@@ -21,7 +21,7 @@
 	#If you don't mind your logs having a bit more info, or you are trying to figure out a bug or crash, this can be very helpful to have
 	doVerboseDebugging = false
 	#Set this to false to disable the message that welcomes you to Advent of Ascension when logging in
-	showWelcomeMessage = true
+	showWelcomeMessage = false
 	#Set this to false to limit your levels display to a max of level 100.
 	#Levels above this are for prestige only and do not affect your gameplay
 	showVanityLevels = true

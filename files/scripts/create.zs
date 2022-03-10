@@ -15,6 +15,8 @@ var dict_bone = <tag:items:forge:bones>;
 var gunpowder = <tag:items:forge:gunpowder>;
 var stone = <tag:items:forge:stone>;
 var gold = <tag:items:forge:ingots/gold>;
+var planks = <tag:items:minecraft:planks>;
+var chests = <tag:items:forge:chests>;
 
 #Alt Anvil Recipe
 
@@ -57,4 +59,17 @@ var gold = <tag:items:forge:ingots/gold>;
 
 #Wormhole mirror
 <recipetype:create:mechanical_crafting>.addRecipe("whi-alt", <item:bountifulbaubles:wormhole_mirror>, [[<item:envirocore:obsidian_plate>,<item:minecraft:end_rod>,<item:envirocore:obsidian_plate>],[<item:bountifulbaubles:potion_wormhole>,<item:bountifulbaubles:magic_mirror>,<item:bountifulbaubles:potion_wormhole>],[<item:envirocore:obsidian_plate>,<item:youmatter:umatter_bucket>,<item:envirocore:obsidian_plate>]]);
+
+
+#Draconic Crafting Core
+<recipetype:create:mechanical_crafting>.addRecipe("drac-alt", <item:draconicevolution:crafting_core>, [[<item:compressium:netherite_5>,<item:compressium:iron_9>,<item:advancednetherite:netherite_emerald_block>],[<item:refinedpipes:ultimate_energy_pipe>,<item:youmatter:umatter_bucket>,<item:refinedpipes:ultimate_energy_pipe>],[<item:advancednetherite:netherite_emerald_block>,<item:compressium:iron_9>,<item:compressium:netherite_5>]]);
+
+
+#Umatter Content
+<recipetype:create:mechanical_crafting>.addRecipe("uu-alt-1", <item:youmatter:creator>, [[<item:youmatter:machine_casing>,<item:compressium:obsidian_9>,<item:youmatter:compute_module>],[<item:compressium:obsidian_9>,<item:youmatter:black_hole>,<item:compressium:obsidian_9>],[<item:xreliquary:emperor_chalice>,<item:compressium:obsidian_9>,<item:xreliquary:emperor_chalice>]]);
+<recipetype:create:mechanical_crafting>.addRecipe("uu-alt-2", <item:youmatter:replicator>, [[<item:youmatter:compute_module>,<item:youmatter:machine_casing>,<item:youmatter:compute_module>],[<item:betterendforge:ender_block>,<item:industrialforegoing:mycelial_netherstar>,<item:betterendforge:ender_block>],[<item:youmatter:machine_casing>,<item:aoa3:metal_tub>,<item:youmatter:machine_casing>]]);
+
+
+#Water strainer
+<recipetype:create:mechanical_crafting>.addRecipe("ws-base-alt-1", <item:waterstrainer:strainer_base>, [[<item:industrialforegoing:plastic>,<item:minecraft:air>,<item:industrialforegoing:plastic>],[planks.asIIngredient(),<item:minecraft:hopper>,planks.asIIngredient()],[planks.asIIngredient(),chests.asIIngredient(),planks.asIIngredient()]]);
 

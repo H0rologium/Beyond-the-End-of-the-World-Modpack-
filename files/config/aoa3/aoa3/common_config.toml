@@ -6,7 +6,7 @@
 	resourcesEnabled = true
 	#Set this to false to disable AoA's skills functionality.
 	#WARNING: AoA makes no guarantees for completely stable or balanced gameplay with skills disabled.
-	skillsEnabled = true
+	skillsEnabled = false
 
 #These are common to both server and client, but you may edit it on either the client or server without it affecting the other
 ["Unsynced Config Options"]
